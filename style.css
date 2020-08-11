@@ -90,15 +90,12 @@ li {
     font-size: 30px;
     padding-top: 200px;
 }
-<<<<<<< HEAD
-=======
 /* ======= */
 
->>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30
 
 *{
   margin: 0;
-  padding: 0;
+  padding:0;
 }
 
 html {
@@ -176,17 +173,17 @@ img {
   border: solid 1px #432;
 }
 
-.footer-xontact-button:hover{
+.footer-contact-button:hover{
   background-color: rgba(137, 189, 222, 0.5);
   
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .wrapper {
   
   padding: 0 2%;
 }
-=======
+/* ======= */
 .footer-nav{
   display: flex;
   font-size: 0.75rem;
@@ -247,4 +244,4 @@ small{
 =======
 
 >>>>>>> 1612a361de1e99b68cd0bc2f821f226983f85d14 */
->>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30
+/* >>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30 */

@@ -9,6 +9,14 @@
     display: flex;
 }
 
+.work {
+    display: flex;
+}
+
+.tate {
+    text-align: center;
+}
+
 .niban {
     text-align: center;
     padding-top: 80px;

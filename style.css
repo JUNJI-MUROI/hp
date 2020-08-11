@@ -1,7 +1,5 @@
-.slide img {
-    max-width: 100%;
-    min-height: 500px;
-}
+<<<<<<< HEAD
+
 
 .toppage-container {
     display: flex;
@@ -18,3 +16,99 @@
 .tagu ul li a {
     list-style-type: none;
 }
+
+#home {
+    background-image: url("https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/main-img.jpg");
+    max-width: 100%;
+    min-height: 450px;
+    background-repeat: no-repeat;
+}
+
+.wakeru {
+    padding-top: 500px
+}
+
+.moji {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+}
+=======
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body{
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo{
+  width: 70px;
+  margin-top: 34px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top:34px ;
+  list-style: none;
+}
+
+.main-nav li{
+  margin-left: 30px;
+}
+
+.main-nav a{
+  color: #432;
+}
+
+.main-nav a:hover{
+  color: #0bd;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  
+  padding: 0 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684

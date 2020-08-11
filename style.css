@@ -9,6 +9,63 @@ html {
   font-size: 100%;
 }
 
+body{
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo{
+  width: 70px;
+  margin-top: 34px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top:34px ;
+  list-style: none;
+}
+
+.main-nav li{
+  margin-left: 30px;
+}
+
+.main-nav a{
+  color: #432;
+}
+
+.main-nav a:hover{
+  color: #0bd;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  
+  padding: 0 2%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

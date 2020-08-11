@@ -60,8 +60,9 @@ img {
 }
 
 .logo{
-  width: 70px;
-  margin-top: 34px;
+  width: 65px;
+  margin-top: 15px;
+  border-radius: 50%;
 }
 
 .main-nav{
@@ -70,6 +71,8 @@ img {
   text-transform: uppercase;
   margin-top:34px ;
   list-style: none;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .main-nav li{
@@ -88,6 +91,38 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+
+.page-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.page-footer p{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.page-footer h2{
+  color: #432;
+  font-size: 30px;
+  
+}
+
+.page-footer a{
+  color: #432;
+  padding: 12px 100px;
+  border-radius: 40px;
+  border: solid 1px #432;
+}
+
+.page-footer a:hover{
+  background-color: rgba(137, 189, 222, 0.5);
+  
+}
+
+
 
 .wrapper {
   
@@ -111,4 +146,8 @@ img {
 
 
 
+<<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684
+=======
+
+>>>>>>> 1612a361de1e99b68cd0bc2f821f226983f85d14

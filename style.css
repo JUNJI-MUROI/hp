@@ -1,0 +1,20 @@
+.slide img {
+    max-width: 100%;
+    min-height: 500px;
+}
+
+.toppage-container {
+    display: flex;
+}
+
+.tagu ul {
+    display: flex;
+}
+
+.tagu ul li {
+    padding-right: 20px;
+}
+
+.tagu ul li a {
+    list-style-type: none;
+}

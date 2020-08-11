@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 /* <<<<<<< HEAD */
->>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30
-
 .container {
     display: flex;
     justify-content: center;
@@ -15,6 +11,11 @@
 
 .niban {
     text-align: center;
+    padding-top: 80px;
+}
+
+li {
+    list-style: none;
 }
 
 .purann {
@@ -22,7 +23,6 @@
 } 
 
 .matome {
-    padding: 80px;
     width: 500px;
     margin: 0 auto;
 }

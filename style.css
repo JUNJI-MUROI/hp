@@ -9,8 +9,28 @@
     display: flex;
 }
 
+.gaiyou h2{
+    font-size: 40px;
+}
+
+.gaiyou span {
+    font-size: 1rem;
+}
+
+.gaiyouni {
+    font-size: 1.6rem;
+}
+
+.gaiyousan {
+    padding-bottom: 50px;
+}
+
 .work {
     display: flex;
+}
+
+.ro {
+    text-align: center;
 }
 
 .tate {
@@ -33,6 +53,7 @@ li {
 .matome {
     width: 500px;
     margin: 0 auto;
+    height: 330px;
 }
 
 .ser {

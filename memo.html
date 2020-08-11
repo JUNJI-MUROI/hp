@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  <meta charset="utf-8">
+  <title>hp-seisaku - お問い合わせ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+
+</head>
+<body style="background-image: url(mokuzai.jpg);">
+  
+    <header>
+
+      <ul>
+        <li><a href="index.html"><b>home</b></a></li>
+        <li><a href="profile.html"><b>profile</b></a></li>
+        <li><a href="price.html"><b>price</b></a></li> 
+        <li><a href="contact.html"><b>contact</b></a></li> 
+      </ul>
+
+    </header>
+
+    <script type="text/javascript">
+      var submitted = false;
+      var currentURL = window.location.href;
+    </script>
+    
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"></iframe>
+
+    <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdsCNIBURdkPGpJAeqN_WbyoJ7RmKImTuPsP-YACgynZL202A/formResponse" target="hidden_iframe" onsubmit="submitted=true;" class = "form-iti">
+      <h2 class="under form-ni">お問い合わせ</h2>
+      <input type="text" name="entry.289745675" class="feedback-input" placeholder="Name">
+      <input type="text" name="entry.1541720662" class="feedback-input" placeholder="Email">
+      <textarea name="entry.1794318570" class="feedback-input" placeholder="Comment" cols="30" rows="10"></textarea>
+      
+      <input type="submit" value="send">
+    </form>
+
+    <footer>
+      <p><b>(C)kyouharokugatunijyuuitinitidesu</b></p>
+      <p><b>公式ホームページ</b></p>
+    </footer>
+      
+      
+      <script src="js/main.js"></script>
+      <script src="script.js"></script>
+    </body>
+</html>
+
+<!-- width = 640 -->

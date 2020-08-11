@@ -25,6 +25,7 @@ img {
 .logo{
   width: 65px;
   margin-top: 15px;
+  border-radius: 50%;
 }
 
 .main-nav{
@@ -54,10 +55,43 @@ img {
   justify-content: space-between;
 }
 
+
+.page-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.page-footer p{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.page-footer h2{
+  color: #432;
+  font-size: 30px;
+  
+}
+
+.page-footer a{
+  color: #432;
+  padding: 12px 100px;
+  border-radius: 40px;
+  border: solid 1px #432;
+}
+
+.page-footer a:hover{
+  background-color: rgba(137, 189, 222, 0.5);
+  
+}
+
+
+
 .wrapper {
   
   padding: 0 2%;
 }
+
 
 
 

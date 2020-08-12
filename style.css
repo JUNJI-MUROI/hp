@@ -27,6 +27,7 @@
 
 .work {
     display: flex;
+    padding-bottom: 100px;
 }
 
 .ro {
@@ -38,8 +39,9 @@
 }
 
 .niban {
-    text-align: center;
     padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 li {
@@ -51,18 +53,52 @@ li {
 } 
 
 .matome {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     height: 330px;
+    text-align: center;
 }
+
+.matome h3 {
+    padding: 30px 0;
+    font-size: 1.5rem;
+}
+
+.wor {
+    padding-left: 50px;
+
+}
+
+.wor h2 {
+    font-size: 4.5rem;
+}
+
+.ro h1{
+    font-size: 3rem;
+}
+
+.ro span {
+    font-size: 1.1rem;
+} 
 
 .ser {
     text-align: center;
     padding-top: 100px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+.p {
+    padding: 40px 0;
 }
 
 .tagu ul {
     display: flex;
+}
+
+h3 span {
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .tagu ul li {
@@ -71,6 +107,10 @@ li {
 
 .tagu ul li a {
     list-style-type: none;
+}
+
+.service {
+    padding-bottom: 70px;
 }
 
 #home {

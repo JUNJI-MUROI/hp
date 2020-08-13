@@ -258,26 +258,132 @@ small{
 }
 
 .wrapper {
-  
+  margin: 0 auto;
   padding: 0 2%;
+  text-align: center;
+}
+
+.contact {
+  max-width: 1120px;
+  
 }
 
 
+.contact h2{
+ margin-top: 100px;
+ color: #000;
+ line-height: 0.7;
+ margin-bottom: 30px;
+ font-size: 56px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ font-family: inherit;
+}
 
+.contact h3{
+  color: #1F1F1F;
+    font-size: 16px;
+    border-bottom: 1px solid #828282;
+    
+    font-style: normal;
+    padding: 15px 30px;
+    padding-top: 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
 
+.contact p{
+  color: #000;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 1.8;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+ th {
+  padding: 20px 20px;
+    border-bottom: 1px solid #ccc;
+  width: 25%;
+  text-align: left;
+  box-sizing: border-box;
+  display: table-cell;
+    vertical-align: inherit;
+}
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  border-color: gray;
+}
 
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  box-sizing: border-box;
+}
 
+td {
+  padding: 20px 20px;
+    border-bottom: 1px solid #ccc;
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: left;
+}
 
+input[type = text] {
+  width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+}
 
+textarea {
+  width: 80%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 5px 10px;
+}
 
+input[type="submit"] {
+  color: #fff;
+  border: 0px;
+  background-color: #000;
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 240px;
+  padding: 15px;
+  display: block;
+  margin: 25px auto 60px auto;
+  cursor: pointer;
+}
 
+input[type="submit"]:hover{
+  color: #fff;
+  background-color: cadetblue;
+}
 
-
-
-
-
-
+.radio {
+  position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* 
 <<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684

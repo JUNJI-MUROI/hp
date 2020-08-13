@@ -28,6 +28,7 @@
 .work {
     display: flex;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .ro {
@@ -38,10 +39,36 @@
     text-align: center;
 }
 
+.clearfix {
+  border-top: 1px solid gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.clearfix:nth-of-type(3) {
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+.clearfix a {
+  color: black;
+}
+
 .niban {
     padding-top: 80px;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+}
+.niba {
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.niba h2 {
+  font-size: 50px;
 }
 
 li {
@@ -50,7 +77,23 @@ li {
 
 .purann {
     display: flex;
+    margin-top: 100px;
 } 
+
+.button {
+  color: white;
+  background-color: black;
+  padding: 15px 80px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.b {
+  margin-top: 60px;
+}
+
 
 .matome {
     width: 400px;
@@ -191,7 +234,8 @@ img {
 
 .page-footer {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 150px;
+  
 }
 
 .page-footer p{
@@ -222,7 +266,10 @@ img {
 .wrapper {
   
   padding: 0 2%;
+  
 }
+
+
 /* ======= */
 .footer-nav{
   display: flex;

@@ -444,6 +444,52 @@ input[type="submit"]:hover{
   font-weight: bold;
   margin-bottom: 40px;
 }
+
+.maggage-txt {
+  padding-bottom: 40px;
+}
+
+.maggage-txt h3 {
+  padding-bottom: 0px;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 32px;
+}
+
+.situmon-box {
+  display: block;
+  clear: both;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #888;
+}
+
+.q {
+  background: url(image/Q.png) no-repeat left top;
+  background-size: 50px 50px;
+  padding-left: 70px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.6;
+  min-height: 70px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.a {
+  background: url(image/A.png) no-repeat left top;
+  background-size: 50px 50px;
+  padding-left: 70px;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #212121;
+  line-height: 1.6;
+  min-height: 70px;
+  text-align: left;
+  font-weight: bold;
+}
 /* 
 <<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684

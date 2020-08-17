@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>お問い合わせ - 神奈川 ホームページ制作 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="沖縄,ホームページ制作,web広告,webデザイン,那覇,ダーウィン,darwin"/>
+    <meta name="description" content="企業のビジネス課題をIT・Webで解決。700社以上の制作実績。創業17年。官公庁から中小企業まで幅広い業種のWeb制作の実績。"/>
+    <!-- Google Tag Manager -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/home-icon.png" type="image/png">
+
+</head>
+
+<body>
+  <header class="page-header wrapper">
+    <a href="index.html"> <img src="image/home-icon.png" alt="home-icon" class="logo"></a>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="qanda.html">Q&A</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <div class="con">
+        <li><a href="contact.html">CONTACT</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+ 
+ 
+ <div class="wrapper contact">
+    <h2>CONTACT</h2>
+    <h3>ご相談・お問合せ</h3>
+    <p>お問い合わせは下記メールフォームからご連絡ください。</p>
+  <form action="confirm.php" method = "POST">
+    
+    <table width="100%" border="1" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <th>会社名</th>
+        <td><input name="company" type="text" tabindex="1" accesskey="1"></td>
+      </tr>
+      <tr>
+        <th>お名前</th>
+        <td><input name="name" type="text" tabindex="2" accesskey="2" required="" id="name"><span class="hissu"> [必須]</span></td>
+      </tr>
+     
+      <tr>
+        <th>メールアドレス</th>
+        <td><input name="email" type="text" tabindex="4" accesskey="4" required=""><span class="hissu"> [必須]</span></td>
+      </tr>
+     
+      <tr>
+        <th>相談したいサービス</th>
+        <td><span class="radio"><input name="相談したいサービス" type="radio" value="Web制作" checked="">Web制作</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Webシステム開発">Webシステム開発</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Web広告の運用">Web広告の運用</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="その他">その他</span></td>
+      </tr>
+
+      <tr>
+        <th>相談したいサービス、その他ご質問やご要望をご記入ください</th>
+        <td><textarea name="body" cols="" rows="6" tabindex="5" accesskey="5" required=""></textarea><span class="hissu"> [必須]</span></td>
+      </tr>
+      
+    </tbody></table>
+    <input name="" type="submit" value="確認画面に進む" class="dwcf-form">
+  </form>
+  </div>
+
+  <footer class="wrapper page-footer">
+    
+    <div class="footer-min">
+    <nav>
+      <ul class="footer-nav">
+        <li class="footer-li-home"><a href="index.html">HOME</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="news.html">NEWS</a></li>
+      </ul>
+    </nav>
+    </div>
+    <p class="copy-right"><small>&copy;2020 shonan-hp</small></p>
+  </footer>
+</body>

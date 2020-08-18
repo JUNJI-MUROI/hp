@@ -19,10 +19,16 @@
 
 .gaiyouni {
     font-size: 1.6rem;
+    
+}
+
+.gaiyouni h3 {
+  font-weight: normal;
 }
 
 .gaiyousan {
     padding-bottom: 50px;
+    
 }
 
 .work {
@@ -314,6 +320,10 @@ small{
 .contact {
   max-width: 1120px;
   
+}
+
+.gaiyousan {
+  margin-top: 30px;
 }
 
 .con li a {

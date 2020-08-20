@@ -9,6 +9,8 @@
     <!-- Google Tag Manager -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="image/home-icon.png" type="image/png">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
 </head>
 <div id="home">
     <body class="home blog">
@@ -187,16 +189,41 @@
                 </div>
                 <p class="copy-right"><small>&copy;2020 shonan-hp</small></p>
               </footer>
-        <!-- #page -->
-        
-        <div class="gototop js-top">
-            <a href="#" class="js-gotop">
-                <i class="icon-arrow-up"></i>
-            </a>
-        </div>
-    </body>
-    </html>
-    
-    
+              <p class="pagetop"><a href="#">↑</a></p>
+              </body>
+              </html>
+                
+              <script>
+              
+              $(document).ready(function() {
+              
+                var pagetop = $('.pagetop');
+              
+                  $(window).scroll(function () {
+              
+                    if ($(this).scrollTop() > 100) {
+              
+                          pagetop.fadeIn();
+              
+                     } else {
+              
+                          pagetop.fadeOut();
+              
+                          }
+              
+                     });
+              
+                     pagetop.click(function () {
+              
+                         $('body, html').animate({ scrollTop: 0 }, 500);
+              
+                            return false;
+              
+                 });
+              
+              });
+              
+              </script>
+              
     
     

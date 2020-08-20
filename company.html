@@ -8,6 +8,7 @@
     <meta name="description" content="企業のビジネス課題をIT・Webで解決。700社以上の制作実績。創業17年。官公庁から中小企業まで幅広い業種のWeb制作の実績。"/>
     <!-- End Google Tag Manager -->
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
     <header class="page-header wrapper">
@@ -296,17 +297,39 @@
             </div>
             <p class="copy-right"><small>&copy;2020 shonan-hp</small></p>
           </footer>
-        <!--/footer -->
-
-    </div>
-    <!-- #page -->
-
-    <div class="gototop js-top">
-        <a href="#" class="js-gotop">
-            <i class="icon-arrow-up"></i>
-        </a>
-    </div>
-</body>
-</html>
-
-
+          <p class="pagetop"><a href="#">↑</a></p>
+          </body>
+          </html>
+            
+          <script>
+          
+          $(document).ready(function() {
+          
+            var pagetop = $('.pagetop');
+          
+              $(window).scroll(function () {
+          
+                if ($(this).scrollTop() > 100) {
+          
+                      pagetop.fadeIn();
+          
+                 } else {
+          
+                      pagetop.fadeOut();
+          
+                      }
+          
+                 });
+          
+                 pagetop.click(function () {
+          
+                     $('body, html').animate({ scrollTop: 0 }, 500);
+          
+                        return false;
+          
+             });
+          
+          });
+          
+          </script>
+          

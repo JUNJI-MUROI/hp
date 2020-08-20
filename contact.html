@@ -51,13 +51,13 @@
         <td><input name="email" type="text" tabindex="4" accesskey="4" required=""><span class="hissu"> [必須]</span></td>
       </tr>
      
-      <tr>
+      <!-- <tr>
         <th>相談したいサービス</th>
         <td><span class="radio"><input name="相談したいサービス" type="radio" value="Web制作" checked="">Web制作</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Webシステム開発">Webシステム開発</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Web広告の運用">Web広告の運用</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="その他">その他</span></td>
-      </tr>
+      </tr> -->
 
       <tr>
-        <th>相談したいサービス、その他ご質問やご要望をご記入ください</th>
+        <th>ご依頼内容、相談したいサービス、その他ご質問やご要望をご記入ください</th>
         <td><textarea name="body" cols="" rows="6" tabindex="5" accesskey="5" required=""></textarea><span class="hissu"> [必須]</span></td>
       </tr>
       
@@ -80,4 +80,39 @@
     </div>
     <p class="copy-right"><small>&copy;2020 shonan-hp</small></p>
   </footer>
-</body>
+  <p class="pagetop"><a href="#">↑</a></p>
+  </body>
+  </html>
+    
+  <script>
+  
+  $(document).ready(function() {
+  
+    var pagetop = $('.pagetop');
+  
+      $(window).scroll(function () {
+  
+        if ($(this).scrollTop() > 1) {
+  
+              pagetop.fadeIn();
+  
+         } else {
+  
+              pagetop.fadeOut();
+  
+              }
+  
+         });
+  
+         pagetop.click(function () {
+  
+             $('body, html').animate({ scrollTop: 0 }, 500);
+  
+                return false;
+  
+     });
+  
+  });
+  
+  </script>
+  

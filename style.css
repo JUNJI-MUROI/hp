@@ -193,7 +193,7 @@ html {
 
 body{
   line-height: 1.7;
-  color: #432;
+  color: rgb(37, 37, 37);
 }
 
 a {
@@ -218,6 +218,8 @@ img {
   list-style: none;
   font-style: italic;
   font-weight: bold;
+  color: rgb(37, 37, 37);
+
 }
 
 .main-nav li{
@@ -225,7 +227,8 @@ img {
 }
 
 .main-nav a{
-  color: #432;
+  color: rgb(37, 37, 37);
+  
 }
 
 .main-nav a:hover{
@@ -247,21 +250,22 @@ img {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 30px;
-  margin-top: 100px;
+  margin-top: 200px;
+  color: rgba(0, 0, 0, 0.726);
 }
 
 .page-footer h2{
-  color: #432;
-  font-size: 30px;
-  
+  color: rgba(0, 0, 0, 0.726);
+  font-size: 25px;
+
 }
 
 
 .footer-contact-button{
-  color: #432;
-  padding: 12px 100px;
+  color: rgba(0, 0, 0, 0.726);
+  padding: 12px 80px;
   border-radius: 40px;
-  border: solid 1px #432;
+  border: solid 1px rgba(0, 0, 0, 0.438);
 }
 
 .footer-contact-button:hover{
@@ -282,7 +286,7 @@ img {
   display: flex;
   font-size: 0.75rem;
   text-transform: uppercase;
-  margin-top:50px ;
+  margin-top:100px ;
   list-style: none;
   font-weight: bold;
   justify-content: center;
@@ -300,7 +304,8 @@ img {
 }
 
 .footer-nav a{
-  color: #432;
+  color: rgb(37, 37, 37);
+  
 }
 
 .footer-nav a:hover{
@@ -335,7 +340,8 @@ small{
 
 .contact h2{
  margin-top: 100px;
- color: #000;
+ color: rgb(37, 37, 37);
+ 
  line-height: 0.7;
  margin-bottom: 30px;
  font-size: 56px;
@@ -345,7 +351,8 @@ small{
 }
 
 .contact h3{
-  color: #1F1F1F;
+  color: rgb(37, 37, 37);
+  
     font-size: 16px;
     border-bottom: 1px solid #828282;
     
@@ -358,7 +365,8 @@ small{
 }
 
 .contact p{
-  color: #000;
+  color: rgb(37, 37, 37);
+  
     font-size: 14px;
     padding-bottom: 10px;
     line-height: 1.8;
@@ -480,28 +488,28 @@ input[type="submit"]:hover{
 
 .q {
   background: url(image/Q.png) no-repeat left top;
-  background-size: 50px 50px;
+  background-size: 40px 40px;
   padding-left: 70px;
   vertical-align: middle;
   font-size: 18px;
-  color: #222;
+  color: #3d3c3c;
   line-height: 1.6;
   min-height: 70px;
   text-align: left;
-  font-weight: bold;
+  font-weight:bolder;
 }
 
 .a {
   background: url(image/A.png) no-repeat left top;
-  background-size: 50px 50px;
+  background-size: 40px 40px;
   padding-left: 70px;
   vertical-align: middle;
   font-size: 16px;
-  color: #212121;
+  color: #3d3c3c;
   line-height: 1.6;
   min-height: 70px;
   text-align: left;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .pagetop {
@@ -582,7 +590,7 @@ input[type="submit"]:hover{
 }
 
 .qanda {
-  max-width: 1100px;
+  max-width: 1050px;
 }
 /* 
 <<<<<<< HEAD

@@ -581,7 +581,9 @@ input[type="submit"]:hover{
     box-sizing: border-box;
 }
 
-
+.qanda {
+  max-width: 1100px;
+}
 /* 
 <<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684

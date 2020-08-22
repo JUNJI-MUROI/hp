@@ -352,6 +352,7 @@ small{
     font-style: normal;
     padding: 15px 30px;
     padding-top: 0;
+    margin-top: 0;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -435,6 +436,7 @@ input[type="submit"] {
   display: block;
   margin: 25px auto 60px auto;
   cursor: pointer;
+  margin-top: 75px;
 }
 
 input[type="submit"]:hover{
@@ -456,7 +458,8 @@ input[type="submit"]:hover{
 }
 
 .maggage-txt {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
+  padding-top: 30px;
 }
 
 .maggage-txt h3 {
@@ -577,6 +580,8 @@ input[type="submit"]:hover{
     vertical-align: middle;
     box-sizing: border-box;
 }
+
+
 /* 
 <<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684

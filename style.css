@@ -637,6 +637,7 @@ input[type="submit"]:hover{
 .news-p {
   text-align: left;
   list-style: disc;
+  font-size:20px;
 }
 
 .news-p li{

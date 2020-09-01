@@ -273,7 +273,15 @@ img {
 }
 
 /* <<<<<<< HEAD */
+<<<<<<< HEAD
 
+=======
+.wrapper {
+  max-width: 100%;
+  padding: 0 2%;
+  
+}
+>>>>>>> 5291bd037e0b998423c2916bfccf6502dafac33e
 
 
 /* ======= */
@@ -548,7 +556,7 @@ input[type="submit"]:hover{
   color: #3d3c3c;
   line-height: 1.6;
   text-align: left;
-  
+   
 }
 
 .pagetop {
@@ -636,6 +644,7 @@ input[type="submit"]:hover{
   text-align: left;
   list-style: disc;
   font-size:20px;
+  line-height: 1.9;
 }
 
 .news-p li{

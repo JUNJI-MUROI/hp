@@ -1,0 +1,23 @@
+@media(max-width:767px){
+ .footer-p{
+   font-size: 14px;
+ }
+ .footer-contact-button{
+  color: rgba(0, 0, 0, 0.726);
+  padding: 12px 50px;
+  border-radius: 40px;
+  border: solid 1px rgba(0, 0, 0, 0.438);
+}
+.page-footer h2{
+  color: rgba(0, 0, 0, 0.726);
+  font-size: 16px;
+}
+
+.footer-nav li{
+  margin-left: 20px;
+}
+
+.page-footer{
+  max-width: 100%;
+}
+}

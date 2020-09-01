@@ -40,11 +40,6 @@
 .pi h3 span {
   font-size: 20px;
 }
-<<<<<<< HEAD
-
-
-=======
-
 .contact h2{
   margin-top: 60px;
   color: rgb(37, 37, 37);
@@ -70,13 +65,6 @@
     display: inline-block;
     font-weight: bold;
 }
->>>>>>> 8ce0b400703dabaafa38fe25cd67fc4f5b99cfba
-
-
-}
-<<<<<<< HEAD
-=======
-
 .news-p {
   text-align: left;
   list-style: disc;
@@ -98,11 +86,14 @@
 .a{
   font-size: 16px;
 }
+.news-head h2{
+  font-size: 30px;
+}
+.gaiyouni h3 {
+  font-size: 18px;
+}
+
 }
 
 /* ここまでMJ */
 /* ここからがISE */
-
->>>>>>> 8ce0b400703dabaafa38fe25cd67fc4f5b99cfba
-
-

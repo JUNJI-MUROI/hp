@@ -31,6 +31,8 @@
 
 .puran {
   padding-top: 80px;
+  padding-bottom: 50px;
+  flex-direction: column;
 }
 
 .ro h2 {
@@ -91,6 +93,13 @@
 }
 .gaiyouni h3 {
   font-size: 18px;
+}
+.wor h2 {
+  font-size: 30px;
+}
+.container {
+  flex-direction: column;
+  padding: 30px;
 }
 
 }

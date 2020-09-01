@@ -273,15 +273,12 @@ img {
 }
 
 /* <<<<<<< HEAD */
-<<<<<<< HEAD
 
-=======
 .wrapper {
   max-width: 100%;
   padding: 0 2%;
   
 }
->>>>>>> 5291bd037e0b998423c2916bfccf6502dafac33e
 
 
 /* ======= */
@@ -843,5 +840,5 @@ aside{
 /*チェックが入ったら見せる*/
 
 #input:checked ~ #content{
-	transform: translatex(0px);　/*通常値に戻す*/
+	transform: translatex(0px);/*通常値に戻す*/
 }

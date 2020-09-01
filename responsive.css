@@ -3,12 +3,14 @@
    font-size: 14px;
    margin-top: 70px;
  }
+
  .footer-contact-button{
   color: rgba(0, 0, 0, 0.726);
   padding: 12px 50px;
   border-radius: 40px;
   border: solid 1px rgba(0, 0, 0, 0.438);
 }
+
 .page-footer h2{
   color: rgba(0, 0, 0, 0.726);
   font-size: 16px;
@@ -38,7 +40,69 @@
 .pi h3 span {
   font-size: 20px;
 }
+<<<<<<< HEAD
 
+
+=======
+
+.contact h2{
+  margin-top: 60px;
+  color: rgb(37, 37, 37);
+  
+  line-height: 0.7;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: inherit;
+ }
+
+ .contact h3{
+  color: rgb(37, 37, 37);
+  
+    font-size: 14px;
+    border-bottom: 1px solid #828282;
+    
+
+    font-style: normal;
+    padding: 0 30px 10px 30px ;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: bold;
+}
+>>>>>>> 8ce0b400703dabaafa38fe25cd67fc4f5b99cfba
 
 
 }
+<<<<<<< HEAD
+=======
+
+.news-p {
+  text-align: left;
+  list-style: disc;
+  font-size:16px;
+}
+
+.news-head {
+  margin-bottom: 30px;
+}
+
+.maggage-txt h3 {
+  font-size: 22px;
+}
+
+.q {
+  font-size: 18px;
+}
+
+.a{
+  font-size: 16px;
+}
+}
+
+/* ここまでMJ */
+/* ここからがISE */
+
+>>>>>>> 8ce0b400703dabaafa38fe25cd67fc4f5b99cfba
+
+

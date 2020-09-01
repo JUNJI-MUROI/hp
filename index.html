@@ -8,11 +8,12 @@
     <meta name="description" content="企業のビジネス課題をIT・Webで解決。700社以上の制作実績。創業17年。官公庁から中小企業まで幅広い業種のWeb制作の実績。"/>
     <!-- Google Tag Manager -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="icon" href="image/home-icon.png" type="image/png">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <div id="home">
-    <body class="home blog">
+    <body>
         <header class="page-header wrapper">
             <a href="index.html"> <img src="image/home-icon.png" alt="home-icon" class="logo"></a>
             <nav>
@@ -34,12 +35,12 @@
                     <h1>ISSUE DRIVEN.</h1>
                     <h2>問題の本質からはじめる</h2>
                 </div>
-</div>
+        </div>
 
 <div class="wakeru">
-            <div class="yoko">
-                <div class="container wrapper">
-                    <div>
+                <div class="container">
+
+                    <div class="contaner-mozi">
                         <h2>
                             企業のビジネス課題を
                             <br>
@@ -54,14 +55,11 @@
                             <a href="service.html" class="button">MORE</a>
                         </div>
                     </div>
-                    <div>
-                        <img src="https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/top-mission-img1.jpg" class="img-responsive">
+                    <div class="container-gazou">
+                        <img src="https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/top-mission-img1.jpg">
                     </div>
                 </div>
-                <!--/ row-->
-                
-            </div>
-            <div class="gtco-section topspace60" id="topservice-section">
+            <div>
                 <div class="ser">
                     <h2>SERVICES</h2>
                 </div>
@@ -96,7 +94,7 @@
                         <img src="https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/top-mission-img2.jpg" class="img-responsive">
                     </div>
                     <div class="wor">
-                        <h2 class="sizeb">COMPANY</h2>
+                        <h2>COMPANY</h2>
                         <p>
                             官公庁から中小企業まで幅広い業種のweb制作の実績が御座います。
                             <br>
@@ -108,12 +106,7 @@
                     </div>
                     
                 </div>
-                <!--/ row-->
-                
             </div>
-            <!--/#mission-section -->
-            
-            <!-- news -->
             <div class="niba">
                 <div class="gtco-container">
                     <div class="row">
@@ -133,7 +126,6 @@
                                     </dd>
                                 </dl>
                                 <dl class="clearfix">
-                                    
                                     <dd>
                                         <a href="https://www.dar-win.jp/2020/07/19/195/">ぼーっと沖縄が「日曜はカラフル！！！」で紹介されました。</a>
                                     </dd>
@@ -154,23 +146,13 @@
             <div class="niban">
                 <div class="gtco-container">
                     <div class="row">
-                        <div class="col-md-12 text-center animate-box topcontact-outer">
+                        <div class="text-center animate-box topcontact-outer">
                             <div class="topcontact-conts">
-                                <!-- <div class="topcontact-txt">ご質問・ご相談などお気軽にお問い合わせください。</div>
-                                <div class="btnlink text-center">
-                                    <a href="https://www.dar-win.jp/contact" class="toiawasebtn">お問合せする</a>
-                                </div> -->
                             </div>
                         </div>
                     </div>
-                    <!--/ row-->
-                    
                 </div>
-                <!--/.gtco-container-->
             </div>
-            <!--/.gtco-section-->
-            
-            <!-- footer -->
             <footer class="wrapper page-footer">
                 <p class="footer-p">ご質問・ご相談などお気軽にお問い合わせください。</p>
                 <div>
@@ -192,37 +174,5 @@
               </body>
               </html>
                 
-              <script>
               
-              $(document).ready(function() {
               
-                var pagetop = $('.pagetop');
-              
-                  $(window).scroll(function () {
-              
-                    if ($(this).scrollTop() > 100) {
-              
-                          pagetop.fadeIn();
-              
-                     } else {
-              
-                          pagetop.fadeOut();
-              
-                          }
-              
-                     });
-              
-                     pagetop.click(function () {
-              
-                         $('body, html').animate({ scrollTop: 0 }, 500);
-              
-                            return false;
-              
-                 });
-              
-              });
-              
-              </script>
-              
-    
-    

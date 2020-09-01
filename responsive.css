@@ -1,6 +1,7 @@
 @media(max-width:767px){
  .footer-p{
    font-size: 14px;
+   margin-top: 70px;
  }
  .footer-contact-button{
   color: rgba(0, 0, 0, 0.726);
@@ -13,6 +14,10 @@
   font-size: 16px;
 }
 
+.footer-nav {
+  margin-top: 50px;
+}
+
 .footer-nav li{
   margin-left: 20px;
 }
@@ -22,7 +27,7 @@
 }
 
 .contact h2{
-  margin-top: 100px;
+  margin-top: 60px;
   color: rgb(37, 37, 37);
   
   line-height: 0.7;
@@ -64,7 +69,15 @@
   
 }
 
+.news-p {
+  text-align: left;
+  list-style: disc;
+  font-size:16px;
+}
 
+.news-head {
+  margin-bottom: 30px;
+}
 }
 
 /* ここまでMJ */

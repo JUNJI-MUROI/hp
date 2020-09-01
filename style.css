@@ -115,7 +115,6 @@ li {
 
 .wor {
     padding-left: 50px;
-
 }
 
 .wor h2 {
@@ -648,8 +647,7 @@ input[type="submit"]:hover{
 }
 
 .news-p ul {
-  padding-left: 20px
-  ;
+  padding-left: 20px;
 }
 /* 
 <<<<<<< HEAD
@@ -658,3 +656,48 @@ input[type="submit"]:hover{
 
 >>>>>>> 1612a361de1e99b68cd0bc2f821f226983f85d14 */
 /* >>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30 */
+
+
+  /*inputタグのチェックボックス非表示*/
+#input{
+	display: none;
+}
+
+/*3本線を作る*/
+.line1,.line2,.line3{
+	width: 20px;
+	height: 3px;
+	background-color: black;
+	margin: 3px;
+}
+
+/*メニューのデザイン*/
+
+#content{
+	background-color: lightskyblue;
+	width: 200px;
+	height: 880px;
+  transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
+  transition: .3s ease-in-out;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 13px;
+}
+
+.list li {
+  padding-bottom: 30px;
+}
+
+.list li a {
+  color: white;
+}
+
+.list li a:hover {
+  opacity: 0.5;
+}
+
+/*チェックが入ったら見せる*/
+
+#input:checked ~ #content{
+	transform: translatex(0px);　/*通常値に戻す*/
+}

@@ -57,8 +57,9 @@
 
                         <p>ダーウィンはホームページ制作から集客・分析を行い、企業の様々なビジネス課題を解決致します。</p>
                     </div>
-                    <div class="service">
-                        <img src="https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/services-img.jpg" class="img-responsive" alt="service">
+                    <div class="slliderbox">
+                        <img src="https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/services-img.jpg" class="img-responsive" alt="service" id="slideshow">
+                        
                     </div>
                 </div>
             </div>
@@ -121,6 +122,31 @@
             <p class="copy-right"><small>&copy;2020 shonan-hp</small></p>
           </footer>
           <p class="pagetop"><a href="#">↑</a></p>
+          <script src="slide.js">
+              const images = ["https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/services-img.jpg","https://www.photolibrary.jp/mhd2/img290/450-20130507161258219465.jpg"];
+
+let count = 0;
+const slideimage =()=>{
+  if( count >= images.length){
+    count = 0;
+  }else{
+    document.getElementById('slideshow').src = images[count];
+    count++;
+  }
+}
+
+let slideid = 0;
+const startstop = () =>{
+  if(slideid === 0){//開始ボタンを押した時の処理内容
+    slideid = setInterval(slideimage, 1000);
+  　}else{ //停止ボタンを押した時の処理内容
+    　clearInterval(slideid);
+    　slideid = 0;
+  　}
+}
+document.getElementById('startstopbtn').onclick = startstop;
+
+          </script>
           </body>
           </html>
             

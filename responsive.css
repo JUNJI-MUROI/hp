@@ -28,6 +28,20 @@
   max-width: 100%;
 }
 
+<<<<<<< HEAD
+.puran {
+  padding-top: 80px;
+} 
+
+.ro h2 {
+  font-size: 35px;
+}
+
+.pi h3 span {
+  font-size: 20px;
+}
+}
+=======
 .contact h2{
   margin-top: 60px;
   color: rgb(37, 37, 37);
@@ -98,3 +112,4 @@
 /* ここまでMJ */
 /* ここからがISE */
 
+>>>>>>> 5291bd037e0b998423c2916bfccf6502dafac33e

@@ -24,12 +24,12 @@
 
 .page-footer{
   max-width: 100%;
+  padding-top: 50px;
 }
 
-<<<<<<< HEAD
 .puran {
   padding-top: 80px;
-} 
+}
 
 .ro h2 {
   font-size: 35px;
@@ -38,63 +38,7 @@
 .pi h3 span {
   font-size: 20px;
 }
-}
-=======
-.contact h2{
-  margin-top: 60px;
-  color: rgb(37, 37, 37);
-  
-  line-height: 0.7;
-  margin-bottom: 15px;
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-family: inherit;
- }
 
- .contact h3{
-  color: rgb(37, 37, 37);
-  
-    font-size: 14px;
-    border-bottom: 1px solid #828282;
-    
-    font-style: normal;
-    padding: 0 30px 10px 30px ;
-    box-sizing: border-box;
-    display: inline-block;
-    font-weight: bold;
-}
 
-.news-q {
-  vertical-align: middle;
-  font-size: 16px;
-  color: #3d3c3c;
-  line-height: 1.6;
-  text-align: left;
-  min-height: 40px;
-}
 
-.news-a {
-  vertical-align: middle;
-  font-size: 22px;
-  color: #3d3c3c;
-  line-height: 1.6;
-  text-align: left;
-  
 }
-
-.news-p {
-  text-align: left;
-  list-style: disc;
-  font-size:16px;
-}
-
-.news-head {
-  margin-bottom: 30px;
-}
-}
-
-/* ここまでMJ */
-/* ここからがISE */
-
->>>>>>> 5291bd037e0b998423c2916bfccf6502dafac33e

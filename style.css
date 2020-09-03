@@ -781,7 +781,9 @@ aside{
   border: 1px solid #00468C;
 }
 
-
+#hamburg {
+  display: none;
+}
 /* 
 <<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684
@@ -809,7 +811,7 @@ aside{
 #content{
 	background-color: lightskyblue;
 	width: 200px;
-	height: 880px;
+	height: 300px;
   transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
   transition: .3s ease-in-out;
   text-align: center;

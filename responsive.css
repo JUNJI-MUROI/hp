@@ -93,6 +93,14 @@
   font-size: 18px;
 }
 
+.page-header{
+  display: none;
+}
+
+#hamburg {
+  display: block;
+}
+
 }
 
 /* ここまでMJ */

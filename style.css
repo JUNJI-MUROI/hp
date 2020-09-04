@@ -115,6 +115,17 @@ li {
     padding: 30px 0;
     font-size: 1.5rem;
 }
+.mato {
+    width: 400px;
+    margin: 0 auto;
+    height: 330px;
+    text-align: center;
+}
+
+.mato h3 {
+    padding: 30px 0;
+    font-size: 1.5rem;
+}
 
 
 
@@ -844,8 +855,11 @@ aside{
 
 .top-line1{
   margin-top: 65px;
+<<<<<<< HEAD
 }
 
 #hamburg {
   display:none
+=======
+>>>>>>> ab25399dbd05dd8b9f771290b953aac68b98a546
 }

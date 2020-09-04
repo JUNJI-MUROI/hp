@@ -1,7 +1,8 @@
 /* <<<<<<< HEAD */
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: center
+    ;
     font-size: 1.5rem;
     width: 80%;
     margin: 0 auto;
@@ -787,7 +788,9 @@ aside{
   border: 1px solid #00468C;
 }
 
-
+#hamburg {
+  display: none;
+}
 /* 
 <<<<<<< HEAD
 >>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684
@@ -813,9 +816,10 @@ aside{
 /*メニューのデザイン*/
 
 #content{
-	background-color: lightskyblue;
+  background: linear-gradient(to bottom right,#00B2B2, #3E2873);
+  /* ハンバーガーメニューの色↑ */
 	width: 200px;
-	height: 880px;
+	height: 300px;
   transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
   transition: .3s ease-in-out;
   text-align: center;

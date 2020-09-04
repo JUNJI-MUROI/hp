@@ -45,13 +45,13 @@
 .contact h2{
   margin-top: 60px;
   color: rgb(37, 37, 37);
-  
   line-height: 0.7;
   margin-bottom: 15px;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1px;
   font-family: inherit;
+  
  }
 
  .contact h3{
@@ -120,6 +120,20 @@
 .moji h2 {
   font-size: 25px;
 }
+<<<<<<< HEAD
+=======
+
+.page-header{
+  display: none;
+}
+
+#hamburg {
+  display: block;
+  position: absolute;
+}
+
+
+>>>>>>> 26fdd61e0fcb9e787deaa68f96b3a2b9046d21b0
 }
 
 /* ここまでMJ */

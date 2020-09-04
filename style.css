@@ -822,6 +822,8 @@ aside{
   font-size: 13px;
 }
 
+
+
 .list li {
   padding-bottom: 30px;
 }
@@ -838,4 +840,8 @@ aside{
 
 #input:checked ~ #content{
 	transform: translatex(0px);/*通常値に戻す*/
+}
+
+.top-line1{
+  margin-top: 65px;
 }

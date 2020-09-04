@@ -100,17 +100,28 @@
 .container {
   flex-direction: column-reverse;
   padding: 30px;
-  text-align: center;
+  text-align: left;
 }
 .work {
   flex-direction: column;
 }
 .container-mozi h2{
-  font-size: 25px;
+  font-size: 23.4px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .container-mozi p{
-  font-size: 20px;
+  font-size: 13px;
+  line-height: 30px;
 }
+.moji h1 {
+  font-size: 50px;
+}
+.moji h2 {
+  font-size: 25px;
+}
+<<<<<<< HEAD
+=======
 
 .page-header{
   display: none;
@@ -122,6 +133,7 @@
 }
 
 
+>>>>>>> 26fdd61e0fcb9e787deaa68f96b3a2b9046d21b0
 }
 
 /* ここまでMJ */

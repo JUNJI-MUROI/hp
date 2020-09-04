@@ -134,12 +134,21 @@
   display: block;
   position: absolute;
 }
+
+.wrapper{
+ max-width: 100%;
+}
+
+
 .matome {
   padding-top: 40px;
 }
 .matomeru {
   padding-top: 70px;
   text-align: center;
+}
+.container-gazou {
+  padding-top: 80px;
 }
 }
 

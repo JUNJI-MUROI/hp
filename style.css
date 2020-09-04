@@ -813,7 +813,7 @@ aside{
   background: linear-gradient(to bottom right,#00B2B2, #3E2873);
   /* ハンバーガーメニューの色↑ */
 	width: 200px;
-	height: 300px;
+	height: 350px;
   transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
   transition: .3s ease-in-out;
   text-align: center;

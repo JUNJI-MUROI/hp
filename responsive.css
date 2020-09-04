@@ -102,6 +102,11 @@
   padding: 30px;
   text-align: left;
 }
+.containerr {
+  flex-direction: column-reverse;
+  padding-top: 170px;
+  text-align: left;
+}
 .work {
   flex-direction: column;
 }
@@ -129,8 +134,13 @@
   display: block;
   position: absolute;
 }
-
-
+.matome {
+  padding-top: 40px;
+}
+.matomeru {
+  padding-top: 70px;
+  text-align: center;
+}
 }
 
 /* ここまでMJ */

@@ -105,7 +105,7 @@
 .containerr {
   flex-direction: column-reverse;
   padding-top: 170px;
-  text-align: left;
+  text-align: center;
 }
 .work {
   flex-direction: column;

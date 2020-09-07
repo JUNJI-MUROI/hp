@@ -153,6 +153,14 @@
 .mato {
   padding-bottom: 50px;
 }
+.seisaku-contents{
+  display: none;
+}
+.serviceimgnone{
+  display: block;
+}
+
+
 }
 
 /* ここまでMJ */

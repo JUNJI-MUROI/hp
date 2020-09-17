@@ -883,7 +883,7 @@ aside{
 /*メニューのデザイン*/
 
 #content{
-  background: linear-gradient(to bottom right,#00B2B2, #3E2873);
+  background-color: lightslategray;
   /* ハンバーガーメニューの色↑ */
 	width: 300px;
 	height: 350px;

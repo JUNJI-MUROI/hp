@@ -202,8 +202,6 @@ h3 span {
     font-size: 30px;
     padding-top: 200px;
 }
-/* ======= */
-
 
 *{
   margin: 0;
@@ -741,11 +739,37 @@ aside{
   text-align: left;
 }
 
+.seisaku-contents2{
+  margin-top: 70px;
+}
+
+.seisaku-contents2 h5 {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.5;
+  font-weight: normal;
+  margin: 0px;
+  padding: 25px 0px 20px 0px;
+  text-align: left;
+}
+
 .seisaku-contents .plan {
   font-size: 14px;
   color: #fff;
   background-color: #D9A300;
   margin: 10px 0px 20px 50px;
+  padding: 7px;
+  width: 110px;
+  display: block;
+  text-align: center;
+
+}
+
+.seisaku-contents2 .plan {
+  font-size: 14px;
+  color: #fff;
+  background-color: #D9A300;
+  margin: 10px 0px 20px 0px;
   padding: 7px;
   width: 110px;
   display: block;
@@ -760,6 +784,13 @@ aside{
   padding-left: 50px;
 }
 
+.seisaku-contents2 li {
+  list-style-type: none;
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+  
+}
 .seisaku-contents p {
   font-size: 14px;
   color: #000;
@@ -773,7 +804,24 @@ aside{
   padding-left: 50px;
 }
 
+.seisaku-contents2 p {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: 1.8;
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-align: left;
+}
+
 .seisaku-contents ul {
+  margin: 0px 0px 30px 0px;
+  padding: 0;
+}
+
+.seisaku-contents2 ul {
   margin: 0px 0px 30px 0px;
   padding: 0;
 }
@@ -813,17 +861,10 @@ aside{
   border: 1px solid #00468C;
 }
 
+.seisaku-contents2{
+  display: none;
+}
 
-/* 
-<<<<<<< HEAD
->>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684
-=======
-
->>>>>>> 1612a361de1e99b68cd0bc2f821f226983f85d14 */
-/* >>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30 */
-
-
-  /*inputタグのチェックボックス非表示*/
 #input{
 	display: none;
 }
@@ -877,7 +918,6 @@ aside{
 #hamburg {
   display:none
 }
-
 .g-container {
   text-align: left;
 }
@@ -901,4 +941,3 @@ aside{
 
 .gtco-heading {
   padding-bottom: 40px;
-}

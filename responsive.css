@@ -109,9 +109,7 @@
 .work {
   flex-direction: column;
 }
-.container-mozi {
-  
-}
+
 .container-mozi h2{
   font-size: 23.4px;
   padding-bottom: 20px;
@@ -155,6 +153,14 @@
 .mato {
   padding-bottom: 50px;
 }
+.seisaku-contents{
+  display: none;
+}
+.serviceimgnone{
+  display: block;
+}
+
+
 .sllider img {
   width: 400px;
   height: 200px;
@@ -162,6 +168,26 @@
 .p{
   width: 80%;
   margin: 0 auto;
+}
+
+.seisaku-title{
+  margin-left: auto;
+}
+
+.seisaku-title2{
+  margin-left: auto;
+}
+
+.web-price{
+  margin: 0 auto;
+}
+
+.web-price2{
+  margin: 0 auto;
+}
+
+.seisaku-contents2{
+  display: block;
 }
 }
 

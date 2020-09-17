@@ -53,6 +53,11 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    margin-right: 40px;
+}
+
+.work img{
+  width: 800px;
 }
 
 .ro {
@@ -193,7 +198,7 @@ h3 span {
 
 
 .wakeru {
-    padding-top: 700px
+    padding-top: 450px
 }
 
 .moji {

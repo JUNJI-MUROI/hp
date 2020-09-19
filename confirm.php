@@ -49,10 +49,10 @@ $service = isset( $_POST[ '相談したいサービス' ] ) ? $_POST[ '相談し
   <td><?=$email?></td>
 </tr>
 
-<tr>
+<!-- <tr>
   <th>相談したいサービス</th>
   <td><?=$service?></td>
-</tr> 
+</tr>  -->
 
 <tr>
   <th>お問い合わせ内容</th>

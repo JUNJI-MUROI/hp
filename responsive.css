@@ -108,6 +108,7 @@
 }
 .work {
   flex-direction: column;
+  width: 80%;
 }
 
 .container-mozi h2{
@@ -144,6 +145,7 @@
 
 .matome {
   padding-top: 40px;
+  width: 80%;
 }
 .matomeru {
   padding-top: 70px;
@@ -152,6 +154,7 @@
 
 .mato {
   padding-bottom: 50px;
+  width: 80%;
 }
 .seisaku-contents{
   display: none;

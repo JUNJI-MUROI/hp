@@ -212,6 +212,14 @@ h3 span {
     padding-top: 200px;
 }
 
+.moji h1 {
+  display: none;
+}
+
+.moji h2 {
+  display: none;
+}
+
 *{
   margin: 0;
   padding:0;

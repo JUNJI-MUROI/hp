@@ -144,16 +144,16 @@
 
 
 .matome {
-  padding-top: 40px;
+  padding-top: 60px;
   width: 80%;
 }
 .matomeru {
-  padding-top: 70px;
+  padding-top: 60px;
   text-align: center;
 }
 
 .mato {
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   width: 80%;
 }
 .seisaku-contents{
@@ -166,7 +166,7 @@
 
 .sllider img {
   width: 80%;
-  height: 200px;
+  height: 160px;
 }
 .p{
   width: 80%;
@@ -195,6 +195,10 @@
 .wakeru {
   padding-top: 300px;
 }
+
+/* .b {
+  padding-bottom: 60px;
+} */
 
 }
 

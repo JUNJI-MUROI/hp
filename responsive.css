@@ -110,7 +110,12 @@
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
+  padding-top: 100px;
 }
+
+/* .work img {
+  padding-top: 30px;
+} */
 
 .wor {
   padding-left: 0px;

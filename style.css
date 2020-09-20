@@ -961,3 +961,7 @@ aside{
   display: none;
   margin-top: 50px;
 }
+
+#web-section {
+  padding-bottom: 60px;
+}

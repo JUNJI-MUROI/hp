@@ -109,6 +109,11 @@
 .work {
   flex-direction: column;
   width: 80%;
+  margin: 0 auto;
+}
+
+.wor {
+  padding-left: 0px;
 }
 
 .container-mozi h2{
@@ -201,7 +206,7 @@
 }
 
 /* .b {
-  padding-bottom: 60px;
+  margin: 0 auto;
 } */
 
 }

@@ -16,6 +16,10 @@
   font-size: 16px;
 }
 
+p .footer-p {
+  margin-top: 50px;
+}
+
 .footer-nav {
   margin-top: 50px;
 }
@@ -30,8 +34,8 @@
 }
 
 .puran {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   flex-direction: column;
 }
 
@@ -99,7 +103,6 @@
 }
 .container {
   flex-direction: column-reverse;
-  
   /* text-align: left; */
 }
 .containerr {
@@ -110,7 +113,8 @@
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 60px;
 }
 
 /* .work img {

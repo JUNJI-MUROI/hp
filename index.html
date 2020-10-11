@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lan="ja">
 <head>
     <meta charset="UTF-8">
     <title>ホームページ制作 -早雲-</title>
@@ -11,54 +11,66 @@
     <link rel="icon" href="image/unnamed.jpg" type="image/png">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<div id="home">
     <body>
-        <header class="page-header wrapper">
-            <a href="index.html"> <img src="image/20190126180620.jpg" alt="home-icon" class="logo"></a>
-            <nav>
-                <ul class="main-nav">
-                    <li class="change"><a href="index.html">HOME</a></li>
-                    <li><a href="service.html">SERVICE</a></li>
-                    <li><a href="company.html">COMPANY</a></li>
-                    <li><a href="qanda.html">Q&A</a></li>
-                    <li><a href="news.html">NEWS</a></li>
-                    <div class="con">
+        <div class="category">
+            <div id="slideshow" class="slideshow">
+                <img src="jq.jpeg" alt="" height="900px">
+                <img src="jq2.jpeg" alt="" height="900px">
+                <img src="jq7.webp" alt="" height="900px">
+            </div>
+            <section class="page-header wrapper">
+                <a href="index.html"> <img src="image/20190126180620.jpg" alt="home-icon" class="logo mt-10"></a>
+
+                    <ul class="main-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="service.html">SERVICE</a></li>
+                        <li><a href="company.html">COMPANY</a></li>
+                        <li><a href="qanda.html">Q&A</a></li>
+                        <li><a href="news.html">NEWS</a></li>
+                        <div class="con">
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </div>
+                    </ul>
+                
+            </section>
+
+            <div id="hamburg">
+                <input id="input" type="checkbox">
+                
+                <label id="label1" for="input"><div class="line1 top-line1"></div><div class="line2"></div><div class="line3"></div></label>
+                
+                <div id="content" class="home-content">
+                    <ul class="list">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="service.html">SERVICES</a></li>    
+                        <li><a href="company.html">COMPANY</a></li>
+                        <li><a href="qanda.html">Q&A</a></li>
+                        <li><a href="news.html">NEWS</a></li>
+                        
                         <li><a href="contact.html">CONTACT</a></li>
-                      </div>
-                </ul>
-            </nav>
-        </header>
-        <div id="hamburg">
-            <input id="input" type="checkbox">
-        
-            <label id="label1" for="input"><div class="line1 top-line1"></div><div class="line2"></div><div class="line3"></div></label>
-        
-          <div id="content" class="home-content">
-           <ul class="list">
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="service.html">SERVICES</a></li>    
-                  <li><a href="company.html">COMPANY</a></li>
-                  <li><a href="qanda.html">Q&A</a></li>
-                  <li><a href="news.html">NEWS</a></li>
-                  <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-           </div>
-        </div>
-        <div id="page">
+                    </ul>
+                </div>
+            </div>
+
             <div class="top-main-img">
-                <div class="moji">
+                <div class="moji text-center">
                     <h1>Make the homepage familiar</h1>
                     <h2>ホームページを身近に</h2>
                 </div>
             </div>
-<div class="wakeru">
+        </div>
+            
+            
+            
+            <div class="wakeru">
                 <div class="containerr">
-
-                    <div class="container-mozi">
-                        <h2>
-                        お客様ひとりひとりに合わせた最適なプランをご提案。
-                        </h2>
+                    
+                    <div class="container-mozi pr-3">
+                        <h3>
+                            お客様ひとりひとりに合わせた最適なプランをご提案。
+                        </h3>
                         <p>
                             私たちは、予算、目的、デザイン等のお客様ひとりひとりのご希望に沿ったwebページを製作いたします。
                         </p>
@@ -72,12 +84,12 @@
                     </div>
                 </div>
             <div>
-                <div class="ser">
-                    <h2>SERVICES</h2>
+                <div class="ser text-center pt-5 pb-5">
+                    <h3>SERVICES</h3>
                 </div>
 
-                <div class="puran">
-                    <div class="mato">
+                <div class="puran pt-5">
+                    <div class="mato text-center mx-auto">
                         <a href="seisaku.html">
                             <img src="jq.jpeg" class="img-responsive">
                         </a>
@@ -103,8 +115,8 @@
                     <div>
                         <img src="https://images.unsplash.com/1/bag-and-hands.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80" class="img-responsive">
                     </div>
-                    <div class="wor">
-                        <h2>NEWS</h2>
+                    <div class="wor pl-4">
+                        <h3>NEWS</h3>
                         <p>
                             ニュースページはこちらからご覧頂けます。
                         </p>
@@ -113,23 +125,23 @@
                         </div>
                     </div>
             </div>
-            <div class="niba">
+            <div class="niba pt-5 w-80 text-center mb-5 mx-auto">
                 <div class="gtco-container">
                     <div class="row">
                         <div class="col-md-12 text-center gtco-heading animate-box">
-                            <h2>Q＆A</h2>
+                            <h3>Q＆A</h3>
                             <div id="topnews">
-                                <dl class="clearfix">
+                                <dl class="clearfix pt-2 pb-2">
                                     <dd>
                                         <a href="qanda.html">Web制作にかかる期間はどれくらい？</a>
                                     </dd>
                                 </dl>
-                                <dl class="clearfix">
+                                <dl class="clearfix pt-2 pb-2">
                                     <dd>
                                         <a href="qanda.html">スマートフォンへの対応はできる？</a>
                                     </dd>
                                 </dl>
-                                <dl class="clearfix">
+                                <dl class="clearfix pt-2 pb-2 mb-4">
                                     <dd>
                                         <a href="qanda.html">ドメインの管理、所有権はどうなる？</a>
                                     </dd>
@@ -159,7 +171,7 @@
             <footer class="wrapper page-footer">
                 <p class="footer-p">ご質問・ご相談などお気軽にお問い合わせください。</p>
                 <div>
-                <h2><a href="contact.html" class="footer-contact-button">お問い合わせする</a></h2>
+                <h3><a href="contact.html" class="footer-contact-button">お問い合わせする</a></h3>
                 </div>
                 <div class="footer-min">
                 <nav>
@@ -207,6 +219,8 @@
                    });
                 
                 });
+
+                
                 
                 </script>
                 

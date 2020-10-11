@@ -1,17 +1,32 @@
 /* <<<<<<< HEAD */
+.slideshow {
+	position: relative;
+}
+
+.slideshow img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+  transition: 1s; /* フェードの時間(秒) */
+  min-width: 100vw;
+}
+
+.slideshow .show {
+	opacity: 1;
+	z-index: 1;
+}
+
+.wakeru {
+  padding-top: 900px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
+}
 
-}
-.container-mozi {
-  width: 65%;
-  padding-right: 30px;
-}
-.container-mozi h2 {
-  font-size: 35px;
-}
 .containerr {
     display: flex;
     font-size: 1.5rem;
@@ -28,38 +43,13 @@
   transform: translateY(0);
 }
 
-
 .puran {
     display: flex;
-    padding-top: 80px;
-}
-
-.gaiyou h2{
-    font-size: 40px;
-}
-
-.gaiyou span {
-    font-size: 1rem;
-}
-
-.gaiyouni {
-    font-size: 1.6rem;
-    
-}
-
-.gaiyouni h3 {
-  font-weight: normal;
-}
-
-.gaiyousan {
-    padding-bottom: 50px;
-    
 }
 
 .work {
     display: flex;
     padding-bottom: 100px;
-    padding-top: 200px;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -75,8 +65,6 @@
   transform: translateY(0);
 }
 
-
-
 .work img{
   width: 800px;
 }
@@ -91,34 +79,16 @@
 
 .clearfix {
   border-top: 1px solid gray;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .clearfix:nth-of-type(3) {
   border-bottom: 1px solid gray;
-  margin-bottom: 50px;
 }
 
-.clearfix a {
-  color: black;
-}
-
-/* .niban {
-    padding-top: 80px;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-} */
 .niba {
-    padding-top: 80px;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
     opacity: 0;
     transform: translateY(80px);
     transition: all 1s;
-    margin-bottom: 100px;
 }
 
 .niba.is-over {
@@ -126,9 +96,6 @@
   transform: translateY(0);
 }
 
-.niba h2 {
-  font-size: 50px;
-}
 
 li {
     list-style: none;
@@ -153,9 +120,7 @@ li {
   margin-top: 60px;
 }
 
-
 .matome {
-    width: 80%;
     margin: 0 auto;
     height: 330px;
     text-align: center;
@@ -170,14 +135,10 @@ li {
 }
 
 .mato {
-    width: 80%;
-    margin: 0 auto;
     height: 330px;
-    text-align: center;
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s;
-    margin-bottom: 100px;
 }
 
 .mato img {
@@ -194,21 +155,6 @@ li {
   transform: translateY(0);
 }
 
-.wor h2 {
-    font-size: 4.5rem;
-}
-
-.wor {
-  padding-left: 40px;
-}
-
-.ser {
-    text-align: center;
-    padding-top: 100px;
-    font-size: 2rem;
-    padding-bottom: 50px;
-}
-
 .p {
     padding: 40px 0;
 }
@@ -218,7 +164,6 @@ li {
 }
 
 h3 span {
-    font-size: 2rem;
     font-weight: normal;
 }
 
@@ -234,11 +179,9 @@ h3 span {
     padding-bottom: 70px;
 }
 
-#home {
+.home {
     width: 100%;
     height: 750px;
-    background-image: url(https://cdn.pixabay.com/photo/2018/04/05/16/07/moon-3293238_1280.jpg);
-    
     max-width: 100%;
     min-height: 450px;
     background-repeat: no-repeat;
@@ -246,15 +189,8 @@ h3 span {
 }
 
 
-
-.wakeru {
-    padding-top: 450px
-}
-
 .moji {
     color: white;
-    text-align: center;
-    font-size: 30px;
     padding-top: 200px;
 }
 
@@ -264,20 +200,6 @@ h3 span {
 
 .moji h2 {
   display: none;
-}
-
-*{
-  margin: 0;
-  padding:0;
-}
-
-html {
-  font-size: 100%;
-}
-
-body{
-  line-height: 1.7;
-  color: rgb(37, 37, 37);
 }
 
 a {
@@ -290,37 +212,69 @@ img {
 
 .logo{
   width: 55px;
-  margin-top: 10px;
   border-radius: 50%;
 }
 
 .main-nav{
   display: flex;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-top:34px ;
   list-style: none;
   font-style: italic;
   font-weight: bold;
-  color: rgb(37, 37, 37);
 }
 
 .main-nav li{
   margin-left: 30px;
 }
 .main-nav a{
-  color: whitesmoke;
+  color:black;
 }
 
 .main-nav a:hover{
   color: goldenrod;
+  padding-bottom: 5px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.category {/*親div*/
+  position: relative;/*相対配置*/
+  color: white;
+}
+
+.category h1{
+  position: absolute;/*絶対配置*/
+  top: 150%;
+  left: 20%;
+  z-index: 4;
+  }
+
+.category h2{
+  position: absolute;/*絶対配置*/
+  top: 200%;
+  left: 20%;
+  z-index: 4;
+  }
+
+.main-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.page-header img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
 }
 
 .page-header{
   display: flex;
   justify-content: space-between;
 }
-
 
 .page-footer {
   text-align: center;
@@ -329,18 +283,9 @@ img {
 
 .footer-p{
   font-weight: bold;
-  font-size: 20px;
   margin-bottom: 30px;
   margin-top: 200px;
-  color: rgba(0, 0, 0, 0.726);
 }
-
-.page-footer h2{
-  color: rgba(0, 0, 0, 0.726);
-  font-size: 25px;
-
-}
-
 
 .footer-contact-button{
   color: rgba(0, 0, 0, 0.726);
@@ -351,7 +296,6 @@ img {
 
 .footer-contact-button:hover{
   background-color: rgba(137,209,250,0.5);
-  
 }
 
 /* <<<<<<< HEAD */
@@ -359,9 +303,7 @@ img {
 .wrapper {
   max-width: 100%;
   padding: 0 2%;
-  
 }
-
 
 /* ======= */
 .footer-nav{
@@ -372,7 +314,6 @@ img {
   list-style: none;
   font-weight: bold;
   justify-content: center;
-  
 }
 
 .footer-nav li{
@@ -385,7 +326,6 @@ img {
 
 .footer-nav a{
   color: rgb(37, 37, 37);
-  
 }
 
 .footer-nav a:hover{
@@ -419,6 +359,12 @@ small{
   padding: 40px 10px;
 }
 
+.con li a:hover{
+  color: white;
+  background-color: purple;
+  padding: 40px 10px;
+  border: 1px solid white;
+}
 
 .contact h2{
  margin-top: 100px;
@@ -454,6 +400,7 @@ small{
     padding-top: 10px;
     padding-bottom: 50px;
 }
+
  th {
   padding: 20px 20px;
     border-bottom: 1px solid #ccc;
@@ -464,7 +411,6 @@ small{
     vertical-align: inherit;
   color: rgb(43, 43, 43);
   font-weight: normal;
-
 }
 
 table {
@@ -472,8 +418,6 @@ table {
   border-spacing: 0;
   display: table;
   border-color: gray;
-  
-
 }
 
 tr {
@@ -481,8 +425,6 @@ tr {
   vertical-align: inherit;
   border-color: inherit;
   box-sizing: border-box;
-  
-
 }
 
 td {
@@ -624,7 +566,6 @@ input[type="submit"]:hover{
   line-height: 1.6;
   min-height: 70px;
   text-align: left;
-  
 }
 
 .news-a {
@@ -633,71 +574,39 @@ input[type="submit"]:hover{
   color: #3d3c3c;
   line-height: 1.6;
   text-align: left;
-   
 }
 
 .pagetop {
-  
       display: none;
-  
       position: fixed;
-  
       bottom: 20px;
-  
       right: 20px;
-  
   }
   
   .pagetop a {
-  
       display: block;
-
       background-color: rgba(0, 0, 0, 0.5);
-  
       text-align: center;
-
       color: #fff;
-  
       font-size: 30px;
-  
       text-decoration: none;
-  
       padding: 10px 10px;
-  
       filter:alpha(opacity=50);
-  
-      
-  
-
       width: 50px;
       height: 50px;
-  
   }
   
   .pagetop a:hover {
-  
     display: block;
-
     background-color: rgba(137,209,250,0.9);
-
     text-align: center;
-
     color: #fff;
-
     font-size: 30px;
-
     text-decoration: none;
-
     padding: 10px 10px;
-
     filter:alpha(opacity=50);
-
-    
-
-
     width: 50px;
     height: 50px;
-  
   }
   
   .thanks{
@@ -748,7 +657,6 @@ article{
 
 aside{
   width: 60%;
-  
 }
 
 .seisaku-contents{
@@ -926,7 +834,6 @@ aside{
 	display: none;
 }
 
-/*3本線を作る*/
 .line1,.line2,.line3{
 	width: 20px;
 	height: 3px;
@@ -934,11 +841,8 @@ aside{
 	margin: 3px;
 }
 
-/*メニューのデザイン*/
-
 #content{
   background-color: lightslategray;
-  /* ハンバーガーメニューの色↑ */
 	width: 300px;
 	height: 350px;
   transform: translateX(-310px); /*左側の奥の奥に埋めておく*/
@@ -947,8 +851,6 @@ aside{
   padding-top: 50px;
   font-size: 13px;
 }
-
-
 
 .list li {
   padding-bottom: 30px;
@@ -961,8 +863,6 @@ aside{
 .list li a:hover {
   opacity: 0.5;
 }
-
-/*チェックが入ったら見せる*/
 
 #input:checked ~ #content{
 	transform: translatex(0px);/*通常値に戻す*/
@@ -1008,4 +908,3 @@ aside{
 #web-section {
   padding-bottom: 60px;
 }
-

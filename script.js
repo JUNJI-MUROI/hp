@@ -1,9 +1,8 @@
 $(function(){
-    $('h1').fadeIn(1000);
     $('h2').fadeIn(3000);
     $(window).on("scroll", function() {
-        $('.mato,.matome,.containerr,.work,.niba,.main-detail').each(function(index, el) {
-            if($(window).scrollTop() > ($(el).offset().top - $(window).height() / 2 )){
+        $('.mato,.matome,.containerr,.work,.niba,.main-detail,.yokubou-text').each(function(index, el) {
+            if($(window).scrollTop() > ($(el).offset().top - $(window).height() / 1.5)){
                 $(el).addClass('is-over');
             }
         });

@@ -4,6 +4,11 @@
    margin-top: 70px;
  }
 
+
+ .main {
+    flex-direction: column;
+ }
+
  .footer-contact-button{
   color: rgba(0, 0, 0, 0.726);
   padding: 12px 50px;
@@ -138,9 +143,12 @@ p .footer-p {
 
 .moji h1 {
   font-size: 50px;
-}
-.moji h2 {
+  left: -30%;
   font-size: 25px;
+}
+
+.typed {
+  padding-left: 30px;
 }
 
 .niba {
@@ -154,6 +162,7 @@ p .footer-p {
 #hamburg {
   display: block;
   position: absolute;
+  z-index: 100;
 }
 
 .wrapper{
@@ -164,6 +173,7 @@ p .footer-p {
 .matome {
   padding-top: 60px;
   width: 80%;
+  text-align: center;
 }
 .matomeru {
   padding-top: 60px;
@@ -171,8 +181,9 @@ p .footer-p {
 }
 
 .mato {
-  padding-bottom: 80px;
+  padding-bottom: 800px;
   width: 80%;
+  text-align: center;
 }
 .seisaku-contents{
   display: none;

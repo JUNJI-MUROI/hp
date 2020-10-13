@@ -1,4 +1,9 @@
 /* <<<<<<< HEAD */
+body {
+  font-family: "Hiragino Maru Gothic ProN W4";
+}
+
+
 .slideshow {
 	position: relative;
 }
@@ -10,8 +15,6 @@
 	opacity: 0;
   transition: 1s; /* フェードの時間(秒) */
   min-width: 100vw;
-  /* -ms-filter: blur(1px);
-  filter: blur(1px); */
 }
 
 .slideshow .show {
@@ -26,6 +29,17 @@
 
 .wakeru {
   padding-top: 150px;
+  font-family: "Hiragino Maru Gothic ProN W4";
+}
+
+.wakeru h2 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.wakeru span {
+  border-bottom: 5px solid #D9A300;
+  padding-bottom: 8px;
 }
 
 .container {
@@ -54,6 +68,10 @@
     display: flex;
 }
 
+.puran img {
+  height: 300px;
+}
+
 .work {
     display: flex;
     padding-bottom: 100px;
@@ -65,6 +83,10 @@
     transform: translateY(80px);
     transition: all 1s;
     margin-bottom: 100px;
+}
+
+.work-gazou img {
+  border-radius: 20px;
 }
 
 .work.is-over {
@@ -120,21 +142,27 @@ li {
 
 
 .b {
-  margin-top: 60px;
+  margin-top: 30px;
+  padding-bottom: 50px;
 }
 
-.matome {
+.b img {
+  width: 300px;
+}
+
+.matome{
     margin: 0 auto;
     height: 330px;
     text-align: center;
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
 }
 
 .matome img {
   width: 60%;
+  border-radius: 20px;
 }
 
 .mato {
@@ -142,10 +170,19 @@ li {
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s;
+    margin: 0 auto;
+}
+
+.mato p {
+  line-height: 1.8;
+}
+.matome p {
+  line-height: 1.8;
 }
 
 .mato img {
   width: 60%;
+  border-radius: 20px;
 }
 
 .mato.is-over {
@@ -191,22 +228,6 @@ h3 span {
     background-size: cover;
 }
 
-
-.moji {
-    color: white;
-    padding-top: 250px;
-}
-
-.moji h1 {
-  display: none;
-  font-size: 5rem;
-}
-
-.moji h2 {
-  display: none;
-  font-size: 3rem;
-}
-
 a {
   text-decoration: none;
 }
@@ -248,27 +269,6 @@ img {
   color: black;
 }
 
-.category {/*親div*/
-  position: relative;/*相対配置*/
-  color: white;
-}
-
-
-
-.category h1{
-  position: absolute;/*絶対配置*/
-  top: 150%;
-  left: 20%;
-  z-index: 4;
-  }
-
-.category h2{
-  position: absolute;/*絶対配置*/
-  top: 200%;
-  left: 20%;
-  z-index: 4;
-  }
-
 .main-nav {
   position: absolute;
   top: 0;
@@ -296,7 +296,6 @@ img {
 .footer-p{
   font-weight: bold;
   margin-bottom: 30px;
-  margin-top: 200px;
 }
 
 .footer-contact-button{
@@ -891,8 +890,13 @@ aside{
 #hamburg {
   display:none
 }
+
 .g-container {
   text-align: left;
+}
+
+.container-gazou img {
+  border-radius: 20px;
 }
 
 .gtco-container {
@@ -932,7 +936,7 @@ aside{
 
 .main-detail img{
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 .main-detail:nth-child(1){
@@ -1007,15 +1011,20 @@ aside{
 }
 
 .tuyomi {
-  margin-top: 650px;
-  padding-top: 70px;
   background-color: whitesmoke;
+  padding-top: 50px;
+  margin-top: 100px;
+}
+
+.tuyomi span {
+  border-bottom: 5px crimson solid ;
+  padding-bottom: 8px;
 }
 
 .tuyomi h2 {
   text-align: center;
   padding-bottom: 50px;
-  font-family: “HGP行書体”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+  font-family: "Hiragino Maru Gothic ProN W4";
   font-size: 40px;
 }
 
@@ -1026,7 +1035,7 @@ aside{
   text-decoration:none;
   font-size: 20px;
   padding:20px 20px;
-  border: 1px solid #234233;
+  /* border: 3px solid #234233; */
   position: relative;
   display:block;
   max-width:250px;
@@ -1036,6 +1045,7 @@ aside{
 .button:hover{
   background:RGBA(50, 50, 50, .10)
 }
+
 @keyframes distort-1 {
     0% {
         clip: rect(25px, 9999px, 58px, 0)
@@ -1240,4 +1250,131 @@ aside{
     clip: rect(0, 900px, 0, 0);
     animation: distort-2 1s forwards linear alternate-reverse
 }
+
+
 /* buttonの処理 */
+.typed::after {
+  content: "|";
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% {opacity: 0;}
+}
+
+.category {/*親div*/
+  position: relative;/*相対配置*/
+  height: 100vh;
+  width: 100vw;
+}
+
+.category h1{
+  position: absolute;/*絶対配置*/
+  z-index: 20;
+  }
+
+  .moji {
+    position: absolute;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    top: 47%;
+    left: 30%;
+    z-index: 4;
+  }
+  
+  .moji h1 {
+    font-size: 4rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .enji1,
+  .enji2,
+  .enji3 {
+    position: absolute;
+    width: 100vw;
+    z-index: 1000;
+    height: 308px;
+    background-color: black;
+  }
+
+  .enji1 {
+    top: 0;
+  }
+
+  .enji2 {
+    top: calc(100%/3);
+  }
+
+  .enji3 {
+    top: calc(200%/3);
+  }
+
+  .yokubou {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+  .yokubou-text{
+    display: inline-block;
+    background-color:rgba(153, 221, 255);
+    padding: 20px 17px;
+    width: 300px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 80px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.yokubou-text.is-over {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.yokubou-container h2 {
+  text-align: center;
+  padding-top: 110px;
+  font-family: "Hiragino Maru Gothic ProN W4";
+}
+
+.yokubou-container span {
+  border-bottom: 5px solid skyblue;
+  padding-bottom: 8px;
+}
+
+
+.button {
+  width: 200px;
+  height: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+ 
+.button:hover {
+  background-color:rgba(247, 244, 242, 0.274);
+  box-shadow: 0px 15px 20px rgb(17, 22, 34);
+  color: black;
+  transform: translateY(-7px);
+}
+

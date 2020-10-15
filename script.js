@@ -27,4 +27,13 @@ $(function(){
             setTimeout(slide, interval); // 再びタイマーセット
         }
     });
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+ 
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
 });

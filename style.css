@@ -16,6 +16,10 @@
   min-width: 100vw;
 }
 
+.globalMenuSp {
+  display: none;
+}
+
 .slideshow .show {
 	opacity: 1;
 	z-index: 1;
@@ -342,10 +346,7 @@ img {
 
 /* <<<<<<< HEAD */
 
-.wrapper {
-  max-width: 100%;
-  padding: 0 2%;
-}
+
 
 /* ======= */
 .footer-nav{
@@ -384,6 +385,8 @@ small{
   margin: 0 auto;
   padding: 0 2%;
   text-align: center;
+  max-width: 100%;
+  padding-top: 100px;
 }
 
 .contact {
@@ -1362,7 +1365,7 @@ aside{
   .yokubou-text{
     display: inline-block;
     background-color:rgba(153, 221, 255);
-    padding: 20px 17px;
+    padding: 30px 17px;
     width: 300px;
     color: black;
     margin: 0 auto;

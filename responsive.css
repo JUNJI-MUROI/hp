@@ -165,6 +165,10 @@ p .footer-p {
   z-index: 100;
 }
 
+.globalMenuSp {
+  display: unset;
+}
+
 .wrapper{
  max-width: 100%;
 }

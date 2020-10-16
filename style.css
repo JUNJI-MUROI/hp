@@ -1,4 +1,7 @@
 /* <<<<<<< HEAD */
+* {
+  font-family: "Hiragino Maru Gothic ProN W4";
+}
 
 .slideshow {
 	position: relative;
@@ -265,7 +268,7 @@ img {
 }
 
 .main-nav li{
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .main-nav  a{
@@ -278,6 +281,20 @@ img {
 }
 
 .main-nav a:hover{
+  background-position: -100% 0;
+  color: black;
+}
+
+.kuro  a{
+  padding: 8px 20px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,green 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
+  color: white;
+}
+
+.kuro a:hover{
   background-position: -100% 0;
   color: black;
 }
@@ -664,6 +681,10 @@ input[type="submit"]:hover{
 
 .news-p ul {
   padding-left: 20px;
+}
+
+.kuro li a{
+  color: black;
 }
 
 .seisaku p{

@@ -8,23 +8,23 @@ $(function(){
         });
     });
     $(window).load(function() {
-        var img = $("#slideshow").children("img"), // 画像を取得
-            num = img.length, // 画像の数を数える
-            count = 0, // 現在何枚目を表示しているかのカウンター
-            interval = 3000; // 次の画像に切り替わるまでの時間(1/1000秒)
+        var img = $("#slideshow").children("img"), 
+            num = img.length, 
+            count = 0, 
+            interval = 3000;
         
         img.eq(0).addClass("show");
         
-        setTimeout(slide, interval); // slide関数をタイマーセット
+        setTimeout(slide, interval);
         
         function slide() {
-            img.eq(count).removeClass("show"); // 現在表示している画像からshowクラスを取り除く
-            count++; // カウンターを一個進める
+            img.eq(count).removeClass("show");
+            count++;
             if(count >= num) {
-                count = 0; // カウンターが画像の数より大きければリセット
+                count = 0;
             }
-            img.eq(count).addClass("show"); // 次の画像にshowクラス付与
-            setTimeout(slide, interval); // 再びタイマーセット
+            img.eq(count).addClass("show");
+            setTimeout(slide, interval);
         }
     });
     $('.hamburger').click(function() {

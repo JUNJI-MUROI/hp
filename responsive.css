@@ -29,6 +29,12 @@
    margin-top: 70px;
  }
 
+ .yokubou-container h2 {
+  text-align: center;
+  margin-top: 200px;
+  font-family: "Hiragino Maru Gothic ProN W4";
+}
+
  .tuyomi, .member, .niba {
    background-color: white;
  }
@@ -146,17 +152,9 @@ p .footer-p {
 .work {
   flex-direction: column;
   width: 80%;
-  margin: 0 auto;
+  text-align: center;
   padding-top:1080px;
   padding-bottom: 60px;
-}
-
-/* .work img {
-  padding-top: 30px;
-} */
-
-.wor {
-  padding-left: 0px;
 }
 
 .container-mozi h2{
@@ -222,6 +220,11 @@ p .footer-p {
   width: 80%;
   text-align: center;
 }
+
+/* .mato,.matome img {
+  height: 200px;
+} */
+
 .seisaku-contents{
   display: none;
 }

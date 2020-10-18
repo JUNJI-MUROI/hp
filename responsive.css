@@ -13,23 +13,10 @@
 
 @media(max-width:1000px) {
   .moji h1 {
-    left: -23%;
     font-size: 50px;
   }
   .main {
     flex-direction: column;
-  }
-  .tuyomi, .member, .niba {
-    background-color: white;
-  }
-  .puran {
-  flex-direction: column;
-  }
-  .mato {
-    padding-bottom: 700px;
-  }
-  .work {
-    padding-top: 700px;
   }
 }
 
@@ -47,15 +34,6 @@
   margin-top: 200px;
   font-family: "Hiragino Maru Gothic ProN W4";
 }
-
- .tuyomi, .member, .niba {
-   background-color: white;
- }
-
-
- .main {
-    flex-direction: column;
- }
 
  .footer-contact-button{
   color: rgba(0, 0, 0, 0.726);
@@ -107,17 +85,12 @@ p .footer-p {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1px;
-  font-family: inherit;
-  
- }
+}
 
  .contact h3{
-  color: rgb(37, 37, 37);
-  
+    color: rgb(37, 37, 37);
     font-size: 14px;
     border-bottom: 1px solid #828282;
-    
-
     font-style: normal;
     padding: 0 30px 10px 30px ;
     box-sizing: border-box;
@@ -154,19 +127,14 @@ p .footer-p {
 .wor h2 {
   font-size: 30px;
 }
-.container {
-  flex-direction: column-reverse;
-  /* text-align: left; */
-}
+
 .containerr {
   flex-direction: column-reverse;
-  padding-top: 25px;
 }
 .work {
   flex-direction: column;
   width: 80%;
   text-align: center;
-  padding-top:1080px;
   padding-bottom: 60px;
 }
 
@@ -180,26 +148,18 @@ p .footer-p {
   line-height: 30px;
   padding: 0px;
 }
-
-
-
 .moji h1 {
-  left: -23%;
   font-size: 25px;
 }
-
 .typed {
   padding-left: 30px;
 }
-
 .niba {
   padding-top: 30px;
 }
-
 .page-header{
   display: none;
 }
-
 #hamburg {
   display: block;
   position: absolute;
@@ -213,34 +173,12 @@ p .footer-p {
 .wrapper{
  max-width: 100%;
 }
-
-
-
-
-
-.matome {
-  padding-top: 60px;
-  width: 80%;
-  text-align: center;
-}
-.matomeru {
-  padding-top: 60px;
-  text-align: center;
-}
-
-.mato {
-  padding-bottom: 800px;
-  width: 80%;
-  text-align: center;
-}
-
 .seisaku-contents{
   display: none;
 }
 .serviceimgnone{
   display: block;
 }
-
 
 .sllider img {
   width: 80%;
@@ -273,10 +211,6 @@ p .footer-p {
 .wakeru {
   padding-top: 300px;
 }
-
-/* .b {
-  margin: 0 auto;
-} */
 
 .hamburger {
   display : block;
@@ -366,20 +300,15 @@ nav.globalMenuSp ul li:hover {
   opacity: 0.7;
 }
 
-
 nav.globalMenuSp ul li a {
   display: block;
   color: whitesmoke;
   padding: 1em 0;
   text-decoration :none;
 }
-
 /* このクラスを、jQueryで付与・削除する */
 nav.globalMenuSp.active {
   transform: translateY(0%);
 }
 
 }
-
-/* ここまでMJ */
-/* ここからがISE */

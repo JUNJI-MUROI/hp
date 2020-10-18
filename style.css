@@ -20,7 +20,6 @@
 }
 .member {
   background-color: whitesmoke;
-  margin-bottom: 80px;
 }
 .member span {
   border-bottom: 5px solid teal;
@@ -45,21 +44,19 @@
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s;
-    margin-bottom: 100px;
 }
-.tagu ul,.puran,.container,.containerr,.work,.main-nav,.page-header,.footer-nav,.seisaku-contents,.main,.yokubou{
+.tagu ul,.puran,.container,.containerr,.work,.main-nav,.footer-nav,.seisaku-contents,.yokubou{
   display: flex;
+}
+.containerr.is-over,.work.is-over,.niba.is-over,.matome.is-over,.mato.is-over {
+  opacity: 1;
+  transform: translateY(0);
 }
 .work {
     max-width: 60vw;
     opacity: 0;
     transform: translateY(80px);
     transition: all 1s;
-}
-
-.containerr.is-over,.work.is-over,.niba.is-over,.matome.is-over,.mato.is-over {
-  opacity: 1;
-  transform: translateY(0);
 }
 .work span {
   border-bottom: 5px solid orange;
@@ -124,24 +121,16 @@ a {
 img {
   max-width: 100%;
 }
-
 .logo{
   width: 55px;
   border-radius: 50%;
 }
 .main-nav{
-  font-size: 1.2rem;
-  text-transform: uppercase;
   margin-top:34px ;
   list-style: none;
   font-style: italic;
   font-weight: bold;
 }
-
-.main-nav li{
-  margin-left: 15px;
-}
-
 .main-nav  a{
   padding: 8px 20px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, yellow 50%);
@@ -150,12 +139,10 @@ img {
   transition: .3s;
   color: white;
 }
-
-.main-nav a:hover{
+.main-nav a:hover,.kuro a:hover{
   background-position: -100% 0;
   color: black;
 }
-
 .kuro  a{
   padding: 8px 20px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,green 50%);
@@ -164,35 +151,15 @@ img {
   transition: .3s;
   color: white;
 }
-
-.kuro a:hover{
-  background-position: -100% 0;
-  color: black;
-}
-
 .main-nav {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 4;
 }
-
-.page-header img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 4;
-}
-.page-header{
-  justify-content: space-between;
-}
 .page-footer {
   text-align: center;
   padding-top: 200px;
-}
-.footer-p{
-  font-weight: bold;
-  margin-bottom: 30px;
 }
 .footer-contact-button{
   color: rgba(0, 0, 0, 0.726);
@@ -200,11 +167,9 @@ img {
   border-radius: 40px;
   border: solid 1px rgba(0, 0, 0, 0.438);
 }
-
 .footer-contact-button:hover{
   background-color: rgba(137,209,250,0.5);
 }
-
 .footer-nav{
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -213,27 +178,12 @@ img {
   font-weight: bold;
   justify-content: center;
 }
-
-.footer-nav li{
-  margin-left: 30px;
-}
-
-.footer-li-home{
-  margin: 0;
-}
-
-.footer-nav a{
-  color: rgb(37, 37, 37);
-}
-
 .footer-nav a:hover{
   color: #0bd;
 }
-
 small{
   font-size: 0.8rem;
   color: rgb(37, 37, 37);
-
 }
 
 .wrapper {
@@ -243,22 +193,14 @@ small{
   max-width: 100%;
   padding-top: 100px;
 }
-
 .contact {
   max-width: 1000px;
-  
 }
-
-.gaiyousan {
-  margin-top: 30px;
-}
-
 .con li a {
   color: white;
   background-color: purple;
   padding: 40px 10px;
 }
-
 .con li a:hover{
   color: black;
   background-color: purple;
@@ -275,11 +217,9 @@ small{
 }
 
 .contact h3{
-  color: rgb(37, 37, 37);
-  
+    color: rgb(37, 37, 37);
     font-size: 16px;
     border-bottom: 1px solid #828282;
-    
     font-style: normal;
     padding: 0 30px 10px 30px ;
     box-sizing: border-box;
@@ -288,7 +228,7 @@ small{
 }
 
 .contact p{
-  color: rgb(37, 37, 37);
+    color: rgb(37, 37, 37);
     font-size: 14px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -297,12 +237,12 @@ small{
 
  th {
   padding: 20px 20px;
-    border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   width: 25%;
   text-align: left;
   box-sizing: border-box;
   display: table-cell;
-    vertical-align: inherit;
+  vertical-align: inherit;
   color: rgb(43, 43, 43);
   font-weight: normal;
 }
@@ -322,7 +262,7 @@ tr {
 }
 
 td {
-  padding: 20px 20px;
+    padding: 20px 20px;
     border-bottom: 1px solid #ccc;
     display: table-cell;
     vertical-align: inherit;
@@ -380,25 +320,10 @@ input[type="submit"]:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .copy-right {
   margin-top: 15px;
   font-weight: bold;
   margin-bottom: 40px;
-}
-
-.maggage-txt {
-  padding-bottom: 25px;
-  padding-top: 30px;
-}
-
-.maggage-txt h3 {
-  padding-bottom: 0px;
-  padding-top: 10px;
-  text-align: center;
-  font-size: 32px;
-  color:#3d3c3c;
-  font-weight: normal;
 }
 
 .situmon-box {
@@ -521,37 +446,23 @@ input[type="submit"]:hover{
 .news-p li{
   list-style: disc;
 }
-
 .news-p ul {
   padding-left: 20px;
 }
-
-.kuro li a{
-  color: black;
-}
-
 .seisaku p{
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
 }
-
-.seisaku{
-  margin-bottom: 50px;
-}
-
 article{
   width: 40%;
 }
-
 aside{
   width: 60%;
 }
-
 .seisaku-contents{
   max-width: 1000px;
 }
-
 .seisaku-title{
   color: white;
   background-color:rgb(18, 175, 71);
@@ -562,7 +473,6 @@ aside{
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .web-price {
   font-size: 33px;
   color: #155E34;
@@ -573,7 +483,6 @@ aside{
   display: block;
   text-align: left;
 }
-
 .web-price span {
   font-size: 14px;
   color: #155E34;
@@ -583,7 +492,9 @@ aside{
   border: 1px solid #155E34;
 }
 
-.seisaku-contents h5 {
+/* ここまでは大丈夫 */
+
+ .seisaku-contents h5,.seisaku-contents2 h5 {
   font-size: 18px;
   color: #000;
   font-weight: normal;
@@ -591,20 +502,9 @@ aside{
   padding: 25px 0px 20px 50px;
   text-align: left;
 }
-
 .seisaku-contents2{
   margin-top: 70px;
 }
-
-.seisaku-contents2 h5 {
-  font-size: 18px;
-  color: #000;
-  font-weight: normal;
-  margin: 0px;
-  padding: 25px 0px 20px 0px;
-  text-align: left;
-}
-
 .seisaku-contents .plan {
   font-size: 14px;
   color: #fff;
@@ -615,7 +515,6 @@ aside{
   display: block;
   text-align: center;
 }
-
 .seisaku-contents2 .plan {
   font-size: 14px;
   color: #fff;
@@ -627,22 +526,14 @@ aside{
   text-align: center;
 
 }
-.seisaku-contents li {
+.seisaku-contents li,.seisaku-contents2 li {
   list-style-type: none;
   font-size: 16px;
   color: #000;
   text-align: left;
   padding-left: 50px;
 }
-
-.seisaku-contents2 li {
-  list-style-type: none;
-  font-size: 16px;
-  color: #000;
-  text-align: left;
-  
-}
-.seisaku-contents p {
+.seisaku-contents p,.seisaku-contents2 p {
   font-size: 14px;
   color: #000;
   font-weight: normal;
@@ -653,36 +544,13 @@ aside{
   text-align: left;
   padding-left: 50px;
 }
-
-.seisaku-contents2 p {
-  font-size: 14px;
-  color: #000;
-  font-weight: normal;
-  margin: 0px;
-  padding: 0px 0px 20px 0px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  text-align: left;
-}
-
-.siro a {
-  color: white;
-}
-
-.seisaku-contents ul {
+.seisaku-contents ul,.seisaku-contents2 ul {
   margin: 0px 0px 30px 0px;
   padding: 0;
 }
-
-.seisaku-contents2 ul {
-  margin: 0px 0px 30px 0px;
-  padding: 0;
-}
-
 .seisaku-contents{
   margin-top: 100px;
 }
-
 .seisaku-title2{
   color: white;
   background-color: #00468C;
@@ -693,7 +561,6 @@ aside{
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .web-price2 {
   font-size: 33px;
   color: #00468C;
@@ -704,7 +571,6 @@ aside{
   display: block;
   text-align: left;
 }
-
 .web-price2 span {
   font-size: 14px;
   color: #00468C;
@@ -713,18 +579,15 @@ aside{
   padding: 7px 30px;
   border: 1px solid #00468C;
 }
-
 .seisaku-contents2,#input,#hamburg,.serviceimgnone,.globalMenuSp,.pagetop{
   display: none;
 }
-
 .line1,.line2,.line3{
 	width: 20px;
 	height: 3px;
 	background-color: black;
 	margin: 3px;
 }
-
 #content{
   background-color: lightslategray;
 	width: 300px;
@@ -821,10 +684,7 @@ aside{
   opacity: 1;
   transform: translateY(0);
 }
-.main-detail h4 {
-  padding-top: 25px;
-  padding-bottom: 10px;
-}
+
 .tuyomi {
   background-color: whitesmoke;
   padding-top: 50px;
@@ -833,10 +693,9 @@ aside{
 .tuyomi span {
   border-bottom: 5px crimson solid ;
 }
-.tuyomi h2 {
-  padding-bottom: 80px;
-  font-size: 40px;
-}
+
+/* この間 */
+
 .effect_glitch:hover:after {
     content: attr(data-text);
     position: absolute;
@@ -871,10 +730,12 @@ aside{
     animation: distort-2 1s forwards linear alternate-reverse
 }
 
+
 .typed::after {
   content: "|";
   animation: blink 0.7s infinite;
 }
+
 
 @keyframes blink {
   50% {opacity: 0;}
@@ -891,18 +752,15 @@ aside{
   z-index: 20;
 }
 
-  .moji {
+/* これが原因でした */
+.moji {
     position: absolute;
     width: 100vw;
     color: white;
-    text-align: center;
     top: 47%;
-    left: 30%;
     z-index: 4;
-  }
-  .moji h1 {
-    font-size: 4rem;
-  }
+    padding-left: 100px;
+}
 
   .enji1,
   .enji2,
@@ -913,7 +771,6 @@ aside{
     height: 308px;
     background-color: black;
   }
-
   .enji1 {
     top: 0;
   }
@@ -923,7 +780,6 @@ aside{
   .enji3 {
     top: calc(200%/3);
   }
-
 .yokubou {
     flex-wrap: wrap;
     width: 80%;
@@ -931,6 +787,7 @@ aside{
     justify-content: space-around;
     padding-bottom: 40px;
 }
+
 .yokubou-text{
     display: inline-block;
     background-color:rgba(153, 221, 255);
@@ -951,7 +808,6 @@ aside{
   opacity: 1;
   transform: translateY(0);
 }
-
 .yokubou-container h2 {
   text-align: center;
   margin-top: 110px;
@@ -959,26 +815,24 @@ aside{
 .yokubou-container span {
   border-bottom: 5px solid skyblue;
 }
+
+/* ボタン */
+
 .button {
   width: 200px;
   height: 55px;
   font-size: 15px;
-  text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 500;
   color: white;
   background-color: black;
-  border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  outline: none;
   margin:20px auto;
   text-align:center;
   text-decoration:none;
   padding:20px 20px;
-  position: relative;
   display:block;
 }
 .button:hover {

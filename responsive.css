@@ -1,3 +1,18 @@
+@media(max-width:640) {
+  .work {
+    padding-top: 900px;
+  }
+  .footer-contact-button a {
+    width: 80%;
+  }
+  .moji h1 {
+    left: -30%;
+    font-size: 25px;
+  }
+}
+
+
+
 @media(max-width:1400px) {
   .moji h1 {
     left: -23%;

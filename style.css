@@ -17,14 +17,18 @@
   max-height: 100vh;
 }
 
-.globalMenuSp {
-  display: none;
-}
+
 
 .slideshow .show {
 	opacity: 1;
 	z-index: 1;
 }
+
+
+.globalMenuSp {
+  display: none;
+}
+
 
 .member {
   background-color: whitesmoke;

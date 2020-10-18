@@ -1,4 +1,4 @@
-@media(max-width:640) {
+@media(max-width:630) {
   .work {
     padding-top: 900px;
   }
@@ -11,9 +11,7 @@
   }
 }
 
-
-
-@media(max-width:1400px) {
+@media(max-width:1000px) {
   .moji h1 {
     left: -23%;
     font-size: 50px;
@@ -235,10 +233,6 @@ p .footer-p {
   width: 80%;
   text-align: center;
 }
-
-/* .mato,.matome img {
-  height: 200px;
-} */
 
 .seisaku-contents{
   display: none;

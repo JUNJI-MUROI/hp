@@ -81,7 +81,6 @@ li {
 }
 .b {
   margin-top: 30px;
-  padding-bottom: 50px;
 }
 .tagu ul li {
     padding-right: 20px;
@@ -148,7 +147,6 @@ li {
 .footer-nav a:hover{
   color: #0bd;
 }
-
 .wrapper {
   margin: 0 auto;
   text-align: center;
@@ -710,7 +708,10 @@ aside{
     color: white;
     top: 47%;
     z-index: 4;
-    padding-left: 100px;
+    padding-left: 400px;
+}
+.moji h1 {
+  font-size: 4rem;
 }
 
   .enji1,

@@ -1,5 +1,5 @@
 $(function(){
-    $('h2').fadeIn(3000);
+
     $(window).on("scroll", function() {
         $('.containerr,.work,.niba,.main-detail,.yokubou-text,.member').each(function(index, el) {
             if($(window).scrollTop() > ($(el).offset().top - $(window).height() / 1.5)){
@@ -7,6 +7,7 @@ $(function(){
             }
         });
     });
+
     $(window).load(function() {
         var img = $("#slideshow").children("img"), 
             num = img.length, 
@@ -27,6 +28,7 @@ $(function(){
             setTimeout(slide, interval);
         }
     });
+    
     $('.hamburger').click(function() {
         $(this).toggleClass('active');
  

@@ -1,4 +1,4 @@
-@media(max-width:630) {
+@media(max-width:630px) {
   .work {
     padding-top: 900px;
   }
@@ -13,7 +13,11 @@
     padding-bottom: 60px;
   }
   .moji {
-    padding-left: 30px;
+    padding-left: 200px;
+  }
+  .slideshow img {
+    width: 100vw;
+    height: 100vh;
   }
 }
 
@@ -26,6 +30,13 @@
   }
   .ise {
     padding-bottom: 100px;
+  }
+  .slideshow img {
+    width: 100vw;
+    height: 100vh;
+  }
+  .moji {
+    padding-left: 300px;
   }
 }
 
@@ -42,7 +53,7 @@
 }
 
 .moji {
-  padding-left: 50px;
+  padding-left: 400px;
 }
 
  .footer-contact-button{
@@ -148,6 +159,11 @@ p .footer-p {
   padding-bottom: 60px;
 }
 
+.slideshow img {
+  width: 100vw;
+  height: 100vh;
+}
+
 .container-mozi h2{
   font-size: 23.4px;
   padding-bottom: 20px;
@@ -190,10 +206,11 @@ p .footer-p {
   display: block;
 }
 
-.sllider img {
-  width: 80%;
-  height: 160px;
+.slideshow img {
+  width: 100vw;
+  height: 100vh;
 }
+
 .p{
   width: 80%;
   margin: 0 auto;

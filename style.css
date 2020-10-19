@@ -2,6 +2,15 @@
   font-family: "Hiragino Maru Gothic ProN W4";
   line-height: 1.7;
 }
+
+.none {
+  pointer-events: none;
+}
+
+.color {
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .slideshow {
 	position: relative;
 }
@@ -21,6 +30,11 @@
 .member {
   background-color: whitesmoke;
 }
+
+.member p {
+  line-height: 1.6;
+}
+
 .member span {
   border-bottom: 5px solid teal;
 }

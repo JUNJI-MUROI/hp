@@ -52,7 +52,7 @@
 
  .yokubou-container h2 {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 80px;
   font-family: "Hiragino Maru Gothic ProN W4";
 }
  .footer-contact-button{
@@ -174,6 +174,7 @@ p .footer-p {
 
 .globalMenuSp {
   display: unset;
+  z-index: 5;
 }
 
 .wrapper{
@@ -236,10 +237,11 @@ p .footer-p {
 .hamburger span {
   display : block;
   position: absolute;
-  width   : 30px;
-  height  : 2px ;
+  width   : 40px;
+  height  : 8px ;
   left    : 6px;
-  background : green;
+  background : paleturquoise;
+  border: black solid 2px;
 }
 .hamburger span:nth-child(1) {
   top: 10px;

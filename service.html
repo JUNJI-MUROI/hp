@@ -11,23 +11,23 @@
     <link rel="icon" href="image/unnamed.jpg">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
-<body class="tate">
-    <header class="page-header wrapper">
-        <a href="index.html"> <img src="image/20190126180620.jpg" alt="home-icon" class="logo"></a>
-      
-            <ul class="main-nav kuro">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="service.html">SERVICE</a></li>
-                
-                <li><a href="qanda.html">Q&A</a></li>
-                <li><a href="news.html">NEWS</a></li> 
-                <li><a href="company.html">COMPANY</a></li>
-                <div class="con">
-                    <li><a href="contact.html">CONTACT</a></li>
-                  </div>
-            </ul>
-        
+<body>
+    <header>
+
+       <section>
+         <ul class="main-nav kuro">
+            <li class="mr-3"><a href="index.html">HOME</a></li>
+            <li class="mr-3"><a href="service.html">SERVICE</a></li>
+            <li class="mr-3"><a href="qanda.html">Q&A</a></li>
+            <li class="mr-3"><a href="news.html">NEWS</a></li>
+            <div class="con">
+                <li><a href="contact.html">CONTACT</a></li>
+            </div>
+         </ul>  
+       </section>
+
     </header>
+
     <!-- ハンバーガー1 -->
     <div class="hamburger">
       <span></span>
@@ -62,47 +62,26 @@
                             お手伝い致します。
                         </span>
                     </h3>
+
                     <div class="p">
                         <p>早雲はホームページ制作、SNS集客、webマーケティング、写真撮影を用いて、様々な問題を解決いたします。</p>
                     </div>
+
                     <div class="sllider">
-                        <img src="image/kaigi.jpg" class="img-responsive" alt="service" id="slideshow" width="55%" height="500px">
+                        <img src="020.jpg" class="img-fluid" alt="service" id="slideshow" width="55%" height="500px">
                     </div>
             </div>
             
-            <div class="puran">
-              <div class="mato">
-                <a href="seisaku.html">
-                  <img src="image/present.png" class="img-responsive">
-                </a>
-                <h3>ホームページ制作</h3>
-                <p>他社では別料金がかかってしまう <br> レスポンシブデザインも <br> プラン内で、ご対応いたします。</p>
-                <div class="b">
-                  <a href="seisaku.html" class="button">MORE</a>
-                </div>
-              </div>     
-                <div class="matome">
-                        <a href="consaru.html">
-                            <img src="image/bunseki.png" class="img-responsive">
-                        </a>
-                        <h3>SNSコンサルタント</h3>
-                        <p>お客様に代わりwebサイトのアクセス数を分析し、<br> グラフ説明やwebサイトの改善策をご提案。</p>
-                        <div class="b">
-                            <a href="consaru.html" class="button">MORE</a>
-                        </div>
-                </div>
-            </div>
+            
             
                 
-            <footer class="wrapper page-footer color">
+        <footer class="wrapper page-footer color">
               <p class="footer-p mb-4">ご質問・ご相談などお気軽にお問い合わせください。</p>
-                  <h3 class="pb-5">
-                      <a href="contact.html" class="button">お問い合わせする</a></h3>
+              
+                <a href="qanda.html" class="button">MORE</a>
                       <p><a href="#">会社情報</a></p>
-                      
-      
               <!-- フッターメニュー -->
-              <div class="footer-min">
+          <div class="footer-min">
                   <nav>
                       <ul class="footer-nav">
                           <li class="m-0 ml-4"><a href="index.html" class="text-dark">HOME</a></li>
@@ -114,31 +93,30 @@
               </div>
       
                <p class="copy-right mb-4"><small>&copy;2020 souun-hp</small></p>
-          </footer>
-          <p class="pagetop"><a href="#">↑</a></p>
-          <script src="slide.js">
-              const images = ["https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/services-img.jpg","https://www.photolibrary.jp/mhd2/img290/450-20130507161258219465.jpg"];
+        </footer>
 
-let count = 0;
-const slideimage =()=>{
-  if( count >= images.length){
-    count = 0;
-  }else{
-    document.getElementById('slideshow').src = images[count];
-    count++;
-  }
-}
+        <p class="pagetop"><a href="#">↑</a></p>
+        <script src="slide.js">
+        let count = 0;
+        const slideimage =()=>{
+        if( count >= images.length){
+        count = 0;
+        }else{
+        document.getElementById('slideshow').src = images[count];
+        count++;
+        }
+        }
 
-let slideid = 0;
-const startstop = () =>{
-  if(slideid === 0){//開始ボタンを押した時の処理内容
-    slideid = setInterval(slideimage, 1000);
-  　}else{ //停止ボタンを押した時の処理内容
-    　clearInterval(slideid);
-    　slideid = 0;
-  　}
-}
-document.getElementById('startstopbtn').onclick = startstop;
+        let slideid = 0;
+        const startstop = () =>{
+          if(slideid === 0){//開始ボタンを押した時の処理内容
+            slideid = setInterval(slideimage, 1000);
+          　}else{ //停止ボタンを押した時の処理内容
+            　clearInterval(slideid);
+            　slideid = 0;
+          　}
+        }
+        document.getElementById('startstopbtn').onclick = startstop;
 
           </script>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

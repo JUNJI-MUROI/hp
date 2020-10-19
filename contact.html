@@ -11,18 +11,16 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="icon" href="image/unnamed.jpg" type="image/png">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
   <header class="page-header wrapper">
-    <a href="index.html"> <img src="image/20190126180620.jpg" alt="home-icon" class="logo"></a>
     <nav>
       <ul class="main-nav kuro">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="service.html">SERVICE</a></li>
-       
-        <li><a href="qanda.html">Q&A</a></li>
-        <li><a href="news.html">NEWS</a></li>
-        <li><a href="company.html">COMPANY</a></li>
+        <li class="mr-3"><a href="index.html">HOME</a></li>
+        <li class="mr-3"><a href="service.html">SERVICE</a></li>
+        <li class="mr-3"><a href="qanda.html">Q&A</a></li>
+        <li class="mr-3"><a href="news.html">NEWS</a></li>
         <div class="con">
         <li><a href="contact.html">CONTACT</a></li>
         </div>
@@ -46,13 +44,13 @@
   <li><a href="contact.html">CONTACT</a></li>
 </ul>
 </nav>
- <div class="wrapper contact">
+ <div class="wrapper contact text-center">
     <h1>CONTACT</h1>
     <h3>ご相談・お問合せ</h3>
     <p>お問い合わせは下記メールフォームからご連絡ください。</p>
   <form action="confirm.php" method = "POST">
     
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="w-75 mx-auto">
       <tbody><tr>
         <th>会社名(無記入でも可)</th>
         <td><input name="company" type="text" tabindex="1" accesskey="1"></td>

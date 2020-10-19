@@ -10,6 +10,90 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="icon" href="image/unnamed.jpg">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+      table{
+      border-collapse: collapse;
+      border-spacing: 0;
+       table-layout: fixed;
+  width: 490px;
+}
+
+table tr:last-child{
+  border-bottom:solid 1px #ddd;
+}
+
+table th{
+  text-align: center;
+  padding: 7px 0;
+  border-right:solid 1px #ddd;
+  border-left:solid 1px #ddd;
+  width: 155px;
+}
+table th:nth-child(1){
+  background-color:olivedrab;
+}
+
+table th:nth-child(2){
+  background-color:#dddddd;
+}
+
+table th:nth-child(3){
+  background-color: lightblue;
+  color: white;
+}
+
+table tr:nth-child(2) td{
+  font-size: 30px;
+}
+
+table td{
+  text-align: center;
+  padding: 7px 0;
+  border-right:solid 1px #ddd;
+  border-left:solid 1px #ddd;
+  width: 155px;
+}
+
+table td a{
+  background-color: #25b327;
+  color: white;
+  padding:5px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+table .popular{
+  width: 180px;
+}
+
+table th.popular{
+  position: relative;
+}
+
+table th.popular span.no1{
+  position: absolute;
+  top: -10px;
+  left:calc(50% - 30px);
+  background: #bdcc28;
+  width: 60px;
+  font-size: 10px;
+  border-radius: 15px;
+  line-height: 1;
+  padding: 5px;
+}
+
+table th.popular span.inner{
+  position: absolute;
+  color:white;
+  background-color: #f34955;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 180px;
+  padding: 10px 0;
+}
+    </style>
 </head>
 <body>
     <header>
@@ -45,12 +129,14 @@
     <li><a href="contact.html">CONTACT</a></li>
   </ul>
 </nav>
-                <div class="wrapper contact">
+
+            <div class="syoukai">
+              <div class="text-center">
                     <h1>SERVICE</h1>
                     <h3>サービス</h3>
-                  </div>
+              </div>
           
-                <div class="pi">
+              <div class="pi text-center">
                     <h3>
                         <span>企業が抱える問題をWebサイト
                         <span>
@@ -63,16 +149,97 @@
                         </span>
                     </h3>
 
-                    <div class="p">
+                    <div class="p pt-3 pb-3">
                         <p>早雲はホームページ制作、SNS集客、webマーケティング、写真撮影を用いて、様々な問題を解決いたします。</p>
                     </div>
-
-                    <div class="sllider">
-                        <img src="020.jpg" class="img-fluid" alt="service" id="slideshow" width="55%" height="500px">
-                    </div>
+              </div>
             </div>
+
+            <table class="mx-auto pt-5 mt-5 w-75">
+              <tr>
+                <th>制作会社A</th>
+                <th>制作会社B</th>
+                <th>早雲</th>
+                <th>早雲</th>
+              </tr>
+              <tr>
+                <td>¥0</td>
+                <td class="popular">¥5,000</td>
+                <td>¥8,000</td>
+                <td>¥8,000</td>
+              </tr>
+              <tr>
+                <td><p>あああああああああああああ</p></td>
+                <td><p>いいいいいいいいいいいいい</p></td>
+                <td><p>ううううううううううううう</p></td>
+                <td><p>ううううううううううううう</p></td>
+              </tr>
+              <tr>
+                <td>保証なし</td>
+                <td class="popular">保証1ヶ月</td>
+                <td>保証3ヶ月</td>
+                <td>保証3ヶ月</td>
+              </tr>
+            </table>
+
+            <div class="row">
+              <div class="seisaku-contents col-md-6">
             
-            
+                  
+                  <aside class="mx-auto pl-5">
+                    <div class="seisaku-title">
+                      LP制作プラン
+                    </div>
+                    
+                    <div class="web-price"><span>制作費</span>50000円</div>
+                    
+                    <h5>1ページのランディングページ、または1ページの簡素なホームページを製作するプランです。</h5>
+                    
+                    <div class="plan">プラン特徴</div>
+                    
+                    <ul>
+                      <li>1.スマートフォンサイトにも対応</li>
+                      <li>2.お問合せフォーム機能も対応</li>
+                    </ul>
+                    
+                    <p>オリジナルデザインの7ページのプランです。<br>
+                      テキストはお客様にご用意いただきます。<br>
+                      デザインはオリジナルで制作し、基本のデザイン確定まで、2回の修正に対応いたします。<br>
+                      写真はお客様でご用意いただくか、当社から2点写真素材を提供（弊社契約写真サイトより）<br>
+                    </p>
+                  </aside>
+                </div>
+                <div class="seisaku-contents col-md-6">
+                  <aside>
+                    <div class="seisaku-title2">
+                      マスタープラン(7ページ制作)
+                    </div>
+                    <div class="web-price2"><span>制作費</span>20,0000</div>
+                    
+                    <h5>ホームページを集客ツールとして活用するプランです。</h5>
+                    
+                    <div class="plan">プラン特徴</div>
+                    
+                    <ul>
+                      <li>1.スマートフォンサイトにも対応</li>
+                      <li>2.お問合せフォーム機能も対応</li>
+                      <li>3.動的サイトにも対応</li>
+                    </ul>
+                    
+                    <p>オリジナルデザインの7ページのプランです。<br>
+                      テキストはお客様にご用意いただきます。<br>
+                      デザインはオリジナルで制作し、基本のデザイン確定まで、4回の修正に対応いたします。<br>
+                      写真はお客様でご用意いただくか、当社から5点写真素材を提供致します。<br>
+                    </p>
+                    
+                  </aside>
+                </div>
+              </div>
+              
+              
+              
+              
+              
             
                 
         <footer class="wrapper page-footer color">

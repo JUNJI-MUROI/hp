@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+/* テーブル処理 */
+
 .color {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -150,6 +152,10 @@ li {
   background-size: 200% auto;
   transition: .3s;
   color: black;
+}
+
+.kuro a:hover {
+  color: white;
 }
 
 .page-footer {
@@ -338,6 +344,10 @@ input[type="submit"]:hover{
 
 .news-head{
   margin-bottom: 63px;
+}
+
+header {
+  margin-top: 300px;
 }
 
 .a {

@@ -39,6 +39,10 @@
    margin-top: 70px;
  }
 
+ .footer-min {
+   display: none;
+ }
+
 .yokubou-container h2 {
   font-size: 25px;
 } 

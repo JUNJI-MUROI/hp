@@ -54,6 +54,10 @@
    font-size: 22px;
  }
 
+ .header {
+   display: none;
+ }
+
  .yokubou-container h2 {
   text-align: center;
   margin-top: 80px;
@@ -146,10 +150,8 @@ p .footer-p {
 .containerr {
   flex-direction: column-reverse;
 }
-.work {
-  flex-direction: column;
-  width: 80%;
-  text-align: center;
+.work,.work-container {
+  flex-direction: column-reverse;
   padding-bottom: 60px;
 }
 .slideshow img {
@@ -178,7 +180,7 @@ p .footer-p {
 #hamburg {
   display: block;
   position: absolute;
-  z-index: 100;
+  z-index: 110;
 }
 
 .globalMenuSp {
@@ -232,7 +234,7 @@ p .footer-p {
 .hamburger {
   display : block;
   position: fixed;
-  z-index : 3;
+  z-index : 101;
   right : 13px;
   top   : 12px;
   width : 42px;
@@ -249,7 +251,7 @@ p .footer-p {
   width   : 40px;
   height  : 8px ;
   left    : 6px;
-  background : paleturquoise;
+  /* background : paleturquoise; */
   border: black solid 2px;
 }
 .hamburger span:nth-child(1) {

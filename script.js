@@ -38,4 +38,12 @@ $(function(){
             $('.globalMenuSp').removeClass('active');
         }
     });
+
+    $(window).on('load scroll', function() {
+        if($(this).scrollTop() > $('.yokubou').outerHeight()) {
+            $('.header').addClass('fixed');
+        } else {
+            $('.header').removeClass('fixed');
+        }
+    });
 });

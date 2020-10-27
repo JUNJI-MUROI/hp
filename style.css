@@ -29,23 +29,20 @@
 	opacity: 1;
 	z-index: 1;
 }
-.member {
-  background-color: whitesmoke;
-}
 
 .member p {
   line-height: 1.6;
 }
 
 .member span {
-  border-bottom: 5px solid teal;
+  border-bottom: 5px solid white;
 }
 .wakeru h2 {
   text-align: center;
   padding-bottom: 80px;
 }
 .wakeru span {
-  border-bottom: 5px solid #D9A300;
+  border-bottom: 5px solid white;
 }
 .container {
     justify-content: center;
@@ -65,7 +62,6 @@
   transform: translateY(0);
 }
 .work {
-    max-width: 60vw;
     opacity: 0;
     transform: translateY(80px);
     transition: all 1s;
@@ -75,8 +71,15 @@
     transform: translateY(80px);
     transition: all 1s;
 }
+
+.work-container {
+  max-width: 60vw;
+  display: flex;
+  margin: 0 auto;
+}
+
 .work span {
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid white;
 }
 .ro,.tate {
     text-align: center;
@@ -88,15 +91,9 @@
 .clearfix:nth-of-type(3) {
   border-bottom: 1px solid gray;
 }
-.niba {
-    opacity: 0;
-    transform: translateY(80px);
-    transition: all 1s;
-    background-color: whitesmoke;
-    padding: 50px 0;
-}
+
 .niba span {
-  border-bottom: 5px solid cornflowerblue;
+  border-bottom: 5px solid white;
 }
 li {
     list-style: none;
@@ -160,7 +157,7 @@ li {
 
 .page-footer {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .footer-nav{
   font-size: 0.75rem;
@@ -175,8 +172,8 @@ li {
 }
  
 .con li a {
-  color: white;
-  background-color: purple;
+  color: black;
+  background-color: #F8EEFD;
   padding: 40px 10px;
 }
 .con li a:hover{
@@ -578,6 +575,17 @@ aside{
   padding-top: 50px;
   font-size: 13px;
 }
+
+.logo {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+
+.logo img{
+  border-radius: 20px;
+}
+
 #input:checked ~ #content{
 	transform: translatex(0px);
 }
@@ -665,13 +673,8 @@ aside{
   transform: translateY(0);
 }
 
-.tuyomi {
-  background-color: whitesmoke;
-  padding-top: 50px;
-  margin-top: 100px;
-}
 .tuyomi span {
-  border-bottom: 5px crimson solid ;
+  border-bottom: 5px white solid ;
 }
 .effect_glitch:hover:after {
     content: attr(data-text);
@@ -766,24 +769,26 @@ aside{
 
 .yokubou-text{
     display: inline-block;
-    background-color:rgba(153, 221, 255);
-    padding: 30px 17px;
-    width: 300px;
+    background-color:whitesmoke;
+    padding: 15px 10px;
+    width: 280px;
     color: black;
     margin: 0 auto;
     margin-top: 80px;
     opacity: 0;
     transform: translateY(30px);
     transition: all 1s;
-    border: 1px solid black;
+    border: 2px solid black;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
+
 .yokubou-container h2 {
   text-align: center;
   margin-top: 110px;
 }
 .yokubou-container span {
-  border-bottom: 5px solid skyblue;
+  border-bottom: 5px solid white;
 }
 .button {
   width: 200px;
@@ -807,4 +812,56 @@ aside{
   box-shadow: 0px 15px 20px rgb(17, 22, 34);
   color: black;
   transform: translateY(-7px);
+}
+
+.header.fixed{
+  position: fixed;
+  background-color: #282f35;
+  padding: 48px;
+  width: 100%;
+  transition: 0.3s;
+  z-index: 30;
+}
+
+
+/* 背景色熟考 */
+
+/* 早雲は以下の願望を叶えます */
+.yokubou-container {
+  background-color: #D3F8E2;
+}
+
+/* 早雲の強み */
+.tuyomi {
+  background-color: #E4C1F9;
+  padding-top: 50px;
+}
+
+/* 価格比較 */
+.wakeru {
+  background-color: #F694C1;
+}
+
+/* 社員紹介 */
+.member {
+  background-color: #EDE7B1;
+}
+
+/* ニュース */
+.work {
+  background-color:#A9DEF9;
+}
+
+/* Q&A */
+.niba {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 1s;
+  background-color: whitesmoke;
+  padding: 50px 0;
+}
+
+/* フッター */
+.page-footer {
+  background-color: #CDDFA0;
 }

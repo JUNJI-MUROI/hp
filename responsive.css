@@ -50,6 +50,10 @@
    margin-top: 70px;
  }
 
+ aside {
+   margin-left: 0px;
+ }
+
  .footer-min {
    display: none;
  }
@@ -199,11 +203,9 @@ p .footer-p {
   z-index: 5;
 }
 
+
 .wrapper{
  max-width: 100%;
-}
-.seisaku-contents{
-  display: none;
 }
 .serviceimgnone{
   display: block;
@@ -235,9 +237,11 @@ p .footer-p {
   margin: 0 auto;
 }
 
-.seisaku-contents2{
-  display: block;
+.seisaku-contents{
+  margin: 0px;
+  padding: 0px;
 }
+
 .wakeru {
   padding-top: 300px;
 }

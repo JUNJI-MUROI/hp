@@ -40,10 +40,11 @@ $(function(){
     });
 
     $(window).on('load scroll', function() {
-        if($(this).scrollTop() > $('.yokubou').outerHeight()) {
+        if($(this).scrollTop() > $('.yokubou,.syoukai').outerHeight()) {
             $('.header').addClass('fixed');
         } else {
             $('.header').removeClass('fixed');
         }
     });
+    
 });

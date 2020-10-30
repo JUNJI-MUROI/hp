@@ -845,5 +845,17 @@ aside{
 
 /* フッター */
 .page-footer {
-  background-color: #EDE7B1;
+  background-image: url(image/mori.jpg);
+  background-size: cover;
+}
+
+.footer-p {
+  background-color: whitesmoke;
+  max-width: 30vw;
+  margin: 0 auto;
+}
+
+.company a{
+ 
+  background-color: whitesmoke;
 }

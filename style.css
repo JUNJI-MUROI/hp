@@ -845,17 +845,21 @@ aside{
 
 /* フッター */
 .page-footer {
-  background-image: url(image/mori.jpg);
+  background-image: url(image/services.jpg);
   background-size: cover;
 }
 
-.footer-p {
-  background-color: whitesmoke;
-  max-width: 30vw;
-  margin: 0 auto;
+.company a {
+  color: black;
 }
 
-.company a{
- 
+.plan-card1 {
   background-color: whitesmoke;
+  padding: 40px;
+  border-radius: 20px;
+}
+.plan-card2 {
+  background-color: whitesmoke;
+  padding: 40px;
+  border-radius: 20px;
 }

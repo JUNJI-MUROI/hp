@@ -458,24 +458,7 @@ aside{
   font-weight: bold;
   margin-bottom: 20px;
 }
-.web-price {
-  font-size: 33px;
-  color: #155E34;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  margin-left: 50px;
-  display: block;
-  text-align: left;
-}
-.web-price span {
-  font-size: 14px;
-  color: #155E34;
-  font-weight: bold;
-  margin: 0px 20px 0px 0px;
-  padding: 7px 30px;
-  border: 1px solid #155E34;
-}
+
 
 /* ここまでは大丈夫 */
 
@@ -522,21 +505,7 @@ aside{
   font-weight: bold;
   margin-bottom: 20px;
 }
-.web-price2 {
-  font-size: 33px;
-  color: #00468C;
-  font-weight: bold;
-  display: block;
-  text-align: left;
-}
-.web-price2 span {
-  font-size: 14px;
-  color: #00468C;
-  font-weight: bold;
-  margin: 0px 20px 0px 0px;
-  padding: 7px 30px;
-  border: 1px solid #00468C;
-}
+
 .seisaku-contents2,#input,#hamburg,.serviceimgnone,.globalMenuSp,.pagetop{
   display: none;
 }
@@ -855,11 +824,17 @@ aside{
 
 .plan-card1 {
   background-color: whitesmoke;
-  padding: 40px;
+  padding: 60px;
   border-radius: 20px;
+  display: inline-block;
+  text-align: center;
 }
-.plan-card2 {
-  background-color: whitesmoke;
-  padding: 40px;
-  border-radius: 20px;
+
+.price-content {
+  margin: 0 auto;
+}
+
+.ise img {
+  width: 77%;
+  height: 51%;
 }

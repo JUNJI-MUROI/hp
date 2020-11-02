@@ -150,7 +150,7 @@ li {
 
 .kuro  a{
   padding: 8px 20px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,green 50%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,white 50%);
   background-position: 0 0;
   background-size: 200% auto;
   transition: .3s;
@@ -158,12 +158,12 @@ li {
 }
 
 .kuro a:hover {
-  color: white;
+  color: black;
 }
 
 .page-footer {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .footer-nav{
   font-size: 0.75rem;
@@ -814,8 +814,7 @@ aside{
 
 /* フッター */
 .page-footer {
-  background-image: url(image/services.jpg);
-  background-size: cover;
+  background-image: url();
 }
 
 .company a {

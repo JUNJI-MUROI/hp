@@ -271,7 +271,7 @@ p .footer-p {
   height  : 8px ;
   left    : 6px;
   /* background : paleturquoise; */
-  border: black solid 2px;
+  border: goldenrod solid 2px;
 }
 .hamburger span:nth-child(1) {
   top: 10px;

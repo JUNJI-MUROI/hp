@@ -828,6 +828,8 @@ aside{
   border-radius: 20px;
   display: inline-block;
   text-align: center;
+  border: 1px solid black;
+  
 }
 
 .price-content {

@@ -839,3 +839,7 @@ aside{
   width: 77%;
   height: 51%;
 }
+
+.sen {
+  border-bottom: 5px solid gray;
+}

@@ -50,10 +50,13 @@
    margin-top: 70px;
  }
 
+ .tuyomi-container {
+   flex-direction: column;
+ }
+
  .haba {
    width: 75%;
  }
-
 
 
  .top {
@@ -184,10 +187,10 @@ p .footer-p {
   padding-bottom: 60px;
 }
 .slideshow img {
-  height: 700px;
+  height: 500px;
 }
 .category {
-  height: 700px;
+  height: 500px;
 }
 
 .container-mozi h2{

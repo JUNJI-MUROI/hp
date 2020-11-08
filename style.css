@@ -54,7 +54,7 @@
     transform: translateY(50px);
     transition: all 1s;
 }
-.tagu ul,.puran,.container,.containerr,.work,.main-nav,.footer-nav,.seisaku-contents,.yokubou{
+.tagu ul,.puran,.container,.containerr,.work,.main-nav,.footer-nav,.seisaku-contents,.yokubou,.tuyomi-container{
   display: flex;
 }
 .containerr.is-over,.work.is-over,.niba.is-over,.matome.is-over,.mato.is-over,.yokubou-text.is-over.is-over,.member.is-over {
@@ -621,6 +621,10 @@ aside{
 .main-detail.is-over:nth-child(4) {
   opacity: 1;
   transform: translateY(0);
+}
+
+.main-detail {
+  padding: 0px;
 }
 
 .tuyomi span {

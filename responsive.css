@@ -50,6 +50,10 @@
    margin-top: 70px;
  }
 
+ .haba {
+   width: 75%;
+ }
+
 
 
  .top {
@@ -180,9 +184,12 @@ p .footer-p {
   padding-bottom: 60px;
 }
 .slideshow img {
-  width: 100vw;
-  height: 100vh;
+  height: 700px;
 }
+.category {
+  height: 700px;
+}
+
 .container-mozi h2{
   font-size: 23.4px;
   padding-bottom: 20px;
@@ -221,10 +228,7 @@ p .footer-p {
   display: block;
 }
 
-.slideshow img {
-  width: 100vw;
-  height: 100vh;
-}
+
 
 .p{
   width: 80%;

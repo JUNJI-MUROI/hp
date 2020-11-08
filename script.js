@@ -12,7 +12,7 @@ $(function(){
         var img = $("#slideshow").children("img"), 
             num = img.length, 
             count = 0, 
-            interval = 3000;
+            interval = 8000;
         
         img.eq(0).addClass("show");
         

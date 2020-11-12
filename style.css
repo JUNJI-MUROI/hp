@@ -221,7 +221,6 @@ li {
   text-align: left;
   box-sizing: border-box;
   display: table-cell;
-  vertical-align: inherit;
   color: rgb(43, 43, 43);
   font-weight: normal;
 }
@@ -233,6 +232,10 @@ li {
     width: 100%;
     padding: 20px 0px 3px 0px;
     border-bottom: 0px;
+    text-align: left;
+}
+td{
+  display:block;
 }
 }
 
@@ -255,10 +258,11 @@ tr {
 td {
     padding: 20px 20px;
     border-bottom: 1px solid #ccc;
-    display: table-cell;
+    
     vertical-align: inherit;
     text-align: left;
 }
+
 
 input[type = text] {
   width: 70%;
@@ -272,10 +276,24 @@ input[type = text] {
     text-transform: none;
     text-indent: 0px;
     text-shadow: none;
-    display: inline-block;
+    display:inline-block;
     text-align: start;
     appearance: textfield;
 }
+
+@media screen and (max-width: 480px){
+  td{
+    text-align: center;
+    margin: 0 auto;
+  }
+  input[type = text]{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
 
 textarea {
   width: 80%;
@@ -429,6 +447,14 @@ header {
     vertical-align: middle;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 480px){
+  .hissu{
+    padding: 0;
+  }
+}
+
+
 
 .qanda {
   max-width: 1000px;
